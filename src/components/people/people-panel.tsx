@@ -8,7 +8,21 @@ export type Person = { id: string; first_name: string | null; last_name: string 
 export type CreatedAccess = { id: string; firstName: string; lastName: string; username: string; experienceType: 'CLIENT_VIP' | 'AMBASSADOR'; temporaryPassword: string };
 
 export function AccessCard({ created, onDone }: { created: CreatedAccess; onDone: () => void }) {
-  const accessText = `Elite Focus\n\nNombre: ${created.firstName} ${created.lastName}\nUsuario / ID Zilis: ${created.username}\nContraseña temporal: ${created.temporaryPassword}\n\nIngresa en:\nhttps://elite-focus-platform.vercel.app\n\nAl ingresar por primera vez deberás crear tu nueva contraseña.`;
+  const accessText = `*¡Hola, ${created.firstName}!*
+
+Qué bueno tenerte en nuestro equipo *Elite Focus*. Esta plataforma exclusiva es tu espacio para aprender, avanzar y contar con acompañamiento y recursos que te ayuden en el camino.
+
+Aquí tienes tus datos de acceso:
+
+*Usuario / ID Zilis:* ${created.username}
+*Contraseña temporal:* ${created.temporaryPassword}
+
+*Ingresa aquí:*
+https://elite-focus-platform.vercel.app
+
+La primera vez te pediremos crear tu propia contraseña.
+
+*Cualquier duda, me cuentas. Estoy pendiente.*`;
   async function copy(text: string) { await navigator.clipboard?.writeText(text); }
   return <section className="panel access-created"><div className="eyebrow">Acceso creado</div><h2>{created.firstName} {created.lastName}</h2><p>Tipo: <strong>{created.experienceType === 'CLIENT_VIP' ? 'Cliente VIP' : 'Embajador'}</strong></p><p><strong>Usuario / ID Zilis:</strong> {created.username}</p><p><strong>Contraseña temporal:</strong> <code>{created.temporaryPassword}</code></p><div className="public-actions access-actions"><button type="button" className="public-button public-button--secondary" onClick={() => copy(created.username)}>Copiar usuario</button><button type="button" className="public-button public-button--secondary" onClick={() => copy(created.temporaryPassword)}>Copiar contraseña</button><button type="button" className="public-button public-button--primary" onClick={() => copy(accessText)}>Copiar acceso completo</button><button type="button" className="public-button public-button--secondary" onClick={onDone}>Listo</button></div></section>;
 }
