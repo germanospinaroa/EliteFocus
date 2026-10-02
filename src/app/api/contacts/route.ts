@@ -1,0 +1,4 @@
+import { NextResponse } from 'next/server';
+import { createClient } from '@/lib/supabase/server';
+import { trackEvent, awardMilestone } from '@/lib/events';
+export async function POST(request:Request){const supabase=createClient();const {data:{user}}=await supabase.auth.getUser();if(!user)return NextResponse.json({error:'No autenticado'},{status:401});const body=await request.json();const {data,error}=await supabase.from('contacts').insert({owner_id:user.id,name:body.name,context:body.context,stage:body.stage??'NEW',next_step:body.nextStep??null}).select('id').single();if(error)return NextResponse.json({error:'No pudimos guardar la persona.'},{status:400});await trackEvent(user.id,'contact_created',{contactId:data?.id});await awardMilestone(user.id,'FIRST_CONVERSATION',{contactId:data?.id});return NextResponse.json({ok:true,id:data?.id});}

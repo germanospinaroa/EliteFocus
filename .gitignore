@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.playwright/
+.playwright-cli/
+output/
+node_modules
+.vercel
+
+*.tsbuildinfo
+*.log
+.DS_Store
+
+next-env.d.ts
+supabase/.temp/

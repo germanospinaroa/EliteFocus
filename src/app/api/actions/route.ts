@@ -1,0 +1,4 @@
+import { NextResponse } from 'next/server';
+import { createClient } from '@/lib/supabase/server';
+import { trackEvent } from '@/lib/events';
+export async function POST(request:Request){ const supabase=createClient(); const {data:{user}}=await supabase.auth.getUser(); if(!user)return NextResponse.json({error:'No autenticado'},{status:401}); const body=await request.json(); const {data,error}=await supabase.from('actions').insert({user_id:user.id,slug:`${body.actionId}-${user.id}-${Date.now()}`,action_type:body.type,title:body.title??body.actionId,description:body.description??'',stage_slug:body.stage,status:body.status??'IN_PROGRESS',started_at:new Date().toISOString(),metadata:{source:'next-action'}}).select('id').single(); if(error)return NextResponse.json({error:'No pudimos registrar la acción.'},{status:400}); await trackEvent(user.id,'next_action_started',{actionId:body.actionId,actionRowId:data?.id}); return NextResponse.json({ok:true,id:data?.id}); }

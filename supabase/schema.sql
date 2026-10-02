@@ -1,0 +1,48 @@
+create extension if not exists "uuid-ossp";
+
+create type public.user_role as enum ('customer','ambassador','leader','admin');
+create type public.contact_stage as enum ('NEW','CONVERSATION','RECOMMENDATION','FOLLOWUP','CUSTOMER','CLOSED');
+create type public.followup_status as enum ('PENDING','COMPLETED','CANCELLED');
+
+create table public.profiles (id uuid primary key references auth.users(id) on delete cascade, full_name text not null, preferred_name text, primary_channel text, onboarding_complete boolean default false, current_stage text default 'ORIENTATION', created_at timestamptz default now(), updated_at timestamptz default now());
+create table public.user_roles (user_id uuid references public.profiles(id) on delete cascade, role public.user_role not null, primary key(user_id, role));
+create table public.sponsor_relationships (ambassador_id uuid references public.profiles(id) on delete cascade, sponsor_id uuid references public.profiles(id), created_at timestamptz default now(), primary key(ambassador_id));
+create table public.consents (id uuid primary key default uuid_generate_v4(), user_id uuid references public.profiles(id), consent_type text not null, version text not null, accepted_at timestamptz default now());
+create table public.products (id uuid primary key default uuid_generate_v4(), slug text unique not null, name text not null, short_description text, active boolean default true, created_at timestamptz default now());
+create table public.product_versions (id uuid primary key default uuid_generate_v4(), product_id uuid references public.products(id) on delete cascade, version text not null, status text default 'draft', approved_at timestamptz, created_at timestamptz default now());
+create table public.product_ingredients (id uuid primary key default uuid_generate_v4(), product_version_id uuid references public.product_versions(id) on delete cascade, name text not null, description text);
+create table public.product_usage (id uuid primary key default uuid_generate_v4(), product_version_id uuid references public.product_versions(id) on delete cascade, usage text not null, precautions text);
+create table public.claims (id uuid primary key default uuid_generate_v4(), product_version_id uuid references public.product_versions(id), claim text not null, status text default 'pending', source_id uuid, reviewed_at timestamptz);
+create table public.faqs (id uuid primary key default uuid_generate_v4(), product_id uuid references public.products(id), question text not null, answer text not null, approved boolean default false);
+create table public.knowledge_sources (id uuid primary key default uuid_generate_v4(), title text not null, source_type text, url text, version text, reviewed_at timestamptz);
+create table public.knowledge_items (id uuid primary key default uuid_generate_v4(), source_id uuid references public.knowledge_sources(id), topic text not null, title text not null, body text not null, audience text[], approved boolean default false, version text);
+create table public.resources (id uuid primary key default uuid_generate_v4(), title text not null, resource_type text not null, objective text, duration_minutes int, level text, action_after text, knowledge_item_id uuid references public.knowledge_items(id));
+create table public.content_assets (id uuid primary key default uuid_generate_v4(), title text not null, asset_type text not null, channel text, objective text, url text, copy text, approved boolean default false, product_id uuid references public.products(id));
+create table public.journey_stages (id uuid primary key default uuid_generate_v4(), slug text unique not null, name text not null, position int not null, phase text not null);
+create table public.user_journey_state (user_id uuid primary key references public.profiles(id), stage_id uuid references public.journey_stages(id), entered_at timestamptz default now(), evidence jsonb default '{}'::jsonb);
+create table public.actions (id uuid primary key default uuid_generate_v4(), slug text unique not null, action_type text not null, title text not null, description text, stage_slug text, estimated_minutes int, cta text, priority int default 0, active boolean default true);
+create table public.contacts (id uuid primary key default uuid_generate_v4(), owner_id uuid references public.profiles(id), name text not null, context text, product_id uuid references public.products(id), stage public.contact_stage default 'NEW', next_step text, last_action_at timestamptz, created_at timestamptz default now());
+create table public.followups (id uuid primary key default uuid_generate_v4(), owner_id uuid references public.profiles(id), contact_id uuid references public.contacts(id), due_at timestamptz not null, context text, note text, status public.followup_status default 'PENDING');
+create table public.customers (id uuid primary key default uuid_generate_v4(), contact_id uuid unique references public.contacts(id), first_purchase_at timestamptz, repeat_count int default 0);
+create table public.catalog_links (id uuid primary key default uuid_generate_v4(), owner_id uuid references public.profiles(id), slug text unique not null, link_type text not null, product_id uuid references public.products(id), resource_id uuid references public.resources(id), cta text, created_at timestamptz default now());
+create table public.catalog_link_events (id uuid primary key default uuid_generate_v4(), catalog_link_id uuid references public.catalog_links(id), event_type text not null, session_id text, product_id uuid, created_at timestamptz default now());
+create table public.roleplay_scenarios (id uuid primary key default uuid_generate_v4(), title text not null, objective text, stage_slug text, active boolean default true);
+create table public.roleplay_nodes (id uuid primary key default uuid_generate_v4(), scenario_id uuid references public.roleplay_scenarios(id) on delete cascade, prompt text not null, node_type text, position int);
+create table public.roleplay_choices (id uuid primary key default uuid_generate_v4(), node_id uuid references public.roleplay_nodes(id) on delete cascade, label text not null, next_node_id uuid references public.roleplay_nodes(id), feedback text, approved boolean default true);
+create table public.milestones (id uuid primary key default uuid_generate_v4(), slug text unique not null, name text not null, description text, event_key text not null);
+create table public.user_milestones (user_id uuid references public.profiles(id), milestone_id uuid references public.milestones(id), achieved_at timestamptz default now(), evidence jsonb default '{}'::jsonb, primary key(user_id,milestone_id));
+create table public.support_escalations (id uuid primary key default uuid_generate_v4(), user_id uuid references public.profiles(id), category text, summary text, status text default 'OPEN', created_at timestamptz default now());
+create table public.events (id uuid primary key default uuid_generate_v4(), user_id uuid references public.profiles(id), event_name text not null, properties jsonb default '{}'::jsonb, created_at timestamptz default now());
+create table public.feature_flags (key text primary key, enabled boolean default false, audience jsonb default '{}'::jsonb);
+create table public.audit_logs (id uuid primary key default uuid_generate_v4(), actor_id uuid references public.profiles(id), action text not null, entity_type text, entity_id uuid, changes jsonb, created_at timestamptz default now());
+
+alter table public.profiles enable row level security;
+alter table public.user_roles enable row level security;
+alter table public.contacts enable row level security;
+alter table public.followups enable row level security;
+alter table public.events enable row level security;
+create policy "users read own profile" on public.profiles for select using (auth.uid() = id);
+create policy "users update own profile" on public.profiles for update using (auth.uid() = id);
+create policy "users manage own contacts" on public.contacts for all using (auth.uid() = owner_id);
+create policy "users manage own followups" on public.followups for all using (auth.uid() = owner_id);
+create policy "users write own events" on public.events for insert with check (auth.uid() = user_id);

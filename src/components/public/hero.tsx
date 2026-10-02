@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import { EliteFocusLogo } from './elite-focus-logo';
+
+export function Hero() { return <section className="public-hero" aria-labelledby="hero-title"><div className="public-hero__copy"><p className="public-kicker">Elite Focus 2.0</p><h1 id="hero-title">Bienvenido a una nueva etapa de Elite Focus<span className="public-period">.</span></h1><p className="public-hero__text">Todo lo que necesitas para aprender, avanzar y construir tu negocio, en un solo lugar.</p><div className="public-actions"><Link href="/login" className="public-button public-button--primary">Entrar a Elite Focus <span aria-hidden="true">→</span></Link></div><p className="public-audience">Clientes VIP <span>·</span> Embajadores</p></div><div className="public-hero__mark" aria-hidden="true"><div className="public-orbit public-orbit--one"/><div className="public-orbit public-orbit--two"/><EliteFocusLogo variant="full" /></div></section>; }

@@ -1,0 +1,6 @@
+import { AppNav, MobileAppNav } from '@/components/app/app-nav';
+import { AccountMenu } from '@/components/app/account-menu';
+
+export function AppShell({ children, firstName, lastName, experienceType, platformRole, hasTeam }: { children: React.ReactNode; firstName: string; lastName: string; experienceType: 'CLIENT_VIP' | 'AMBASSADOR'; platformRole: 'OWNER' | 'ADMIN' | 'MEMBER'; hasTeam: boolean }) {
+  return <div className="app"><aside className="sidebar"><div className="brand"><div className="brand-mark">E</div><div><strong>Elite Focus</strong><small>2.0 · sistema operativo</small></div></div><AppNav experienceType={experienceType} platformRole={platformRole} hasTeam={hasTeam}/></aside><main className="main"><header className="topbar"><span className="eyebrow">Mi espacio · {experienceType === 'AMBASSADOR' ? 'embajador' : 'cliente VIP'}</span><div className="top-actions"><button className="help" aria-label="Ayuda">?</button><AccountMenu firstName={firstName} lastName={lastName} platformRole={platformRole} experienceType={experienceType}/></div></header><div className="content">{children}</div></main><MobileAppNav experienceType={experienceType} platformRole={platformRole} hasTeam={hasTeam}/></div>;
+}

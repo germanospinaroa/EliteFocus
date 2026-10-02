@@ -1,0 +1,4 @@
+import { NextResponse } from 'next/server';
+import { createClient } from '@/lib/supabase/server';
+import { trackEvent, awardMilestone } from '@/lib/events';
+export async function POST(request:Request){const supabase=createClient();const {data:{user}}=await supabase.auth.getUser();if(!user)return NextResponse.json({error:'No autenticado'},{status:401});const body=await request.json();const {data,error}=await supabase.from('followups').insert({owner_id:user.id,user_id:user.id,contact_id:body.contactId??null,due_at:body.scheduledFor,scheduled_for:body.scheduledFor,context:body.context,status:'PENDING'}).select('id').single();if(error)return NextResponse.json({error:'No pudimos guardar el seguimiento.'},{status:400});await trackEvent(user.id,'followup_created',{followupId:data?.id});await awardMilestone(user.id,'FIRST_FOLLOWUP',{followupId:data?.id});return NextResponse.json({ok:true,id:data?.id});}

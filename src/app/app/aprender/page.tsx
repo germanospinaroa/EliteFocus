@@ -1,0 +1,2 @@
+import { SectionPage } from '@/components/section-page';
+export default function LearnPage(){return <SectionPage eyebrow="Aprender haciendo" title="Aprende lo que necesitas ahora" description="No tienes que completar una universidad. Elige una necesidad y termina con una acción." cta="Ver práctica recomendada" items={["Conversaciones sencillas","Productos: antes de conversar","Seguimiento sin presión"]}/>}

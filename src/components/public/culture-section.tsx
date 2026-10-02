@@ -1,0 +1,3 @@
+const values = [{ name: 'RESPETO', className: 'public-value--blue' }, { name: 'AMOR', className: 'public-value--lavender' }, { name: 'SERVICIO', className: 'public-value--sage' }];
+
+export function CultureSection() { return <section className="public-culture" aria-labelledby="culture-title"><p className="public-kicker">Nuestra forma de avanzar</p><h2 id="culture-title">Crecer juntos importa.</h2><p>Elite Focus se construye desde tres principios que atraviesan nuestra forma de trabajar, servir y liderar.</p><div className="public-values">{values.map((value) => <div className={`public-value ${value.className}`} key={value.name}>{value.name}</div>)}</div></section>; }
