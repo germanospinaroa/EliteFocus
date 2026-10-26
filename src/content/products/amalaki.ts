@@ -1,4 +1,4 @@
-export type AmalakiMarket = 'CO' | 'US';
+export type AmalakiMarket = 'CO' | 'US' | 'UNKNOWN';
 export type AmalakiRole = 'CLIENT_VIP' | 'AMBASSADOR';
 
 export type AmalakiIngredient = {
@@ -95,29 +95,33 @@ export const amalakiContent: Record<AmalakiMarket, AmalakiContent> = {
     faqs: commonFaqs,
     ambassador: ambassadorLayer('Estados Unidos'),
   },
+  UNKNOWN: {
+    market: 'UNKNOWN', marketLabel: 'Mercado por confirmar',
+    description: 'Amalaki combina amla con frutas y extractos vegetales en sobres individuales que mezclas con agua una vez al día.',
+    shortExplanation: 'Amalaki combina amla, frutas y extractos vegetales en un formato práctico para acompañar una rutina diaria de bienestar.',
+    heroFacts: [{ value: '1 sobre', label: 'al día' }, { value: '240 ml', label: 'de agua' }, { value: '30 sobres', label: 'por envase' }],
+    usage: ['Abre un sobre.', 'Mézclalo con aproximadamente 240 ml de agua.', 'Tómalo una vez al día.'],
+    benefits: [
+      { title: 'Bienestar desde adentro', body: 'Una opción sencilla para acompañar tus hábitos cotidianos.' },
+      { title: 'Ingredientes vegetales', body: 'Amla, frutas y extractos vegetales forman parte de la fórmula.' },
+      { title: 'Practicidad diaria', body: 'Un sobre individual, agua y listo.' },
+    ],
+    nutrition: [],
+    ingredients: commonIngredients,
+    precautions: ['No se presenta como medicamento ni como tratamiento para enfermedades.', 'Si tienes una condición médica, estás embarazada o tomas medicamentos, consulta con un profesional de salud antes de usarlo.'],
+    faqs: commonFaqs,
+    ambassador: ambassadorLayer('el mercado correspondiente'),
+  },
 };
 
-export function getAmalakiMarket(market?: string | null, country?: string | null): AmalakiMarket | null {
-  const value = `${market ?? ''} ${country ?? ''}`.toUpperCase();
-  if (value.includes('US') || value.includes('USA') || value.includes('ESTADOS UNIDOS')) return 'US';
-  if (value.includes('CO') || value.includes('COLOMBIA')) return 'CO';
-  return null;
+export function getAmalakiMarket(market?: string | null, country?: string | null): AmalakiMarket {
+  const value = `${market ?? ''} ${country ?? ''}`.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().trim();
+  if (/(^|[^A-Z])(US|USA|UNITED STATES|ESTADOS UNIDOS)([^A-Z]|$)/.test(value)) return 'US';
+  if (/(^|[^A-Z])(CO|COL|COLOMBIA)([^A-Z]|$)/.test(value)) return 'CO';
+  return 'UNKNOWN';
 }
 
 export function getAmalakiContent(market?: string | null, country?: string | null): AmalakiContent {
   const resolved = getAmalakiMarket(market, country);
-  if (resolved) return amalakiContent[resolved];
-  return {
-    ...amalakiContent.CO,
-    marketLabel: 'Mercado por confirmar',
-    benefits: amalakiContent.CO.benefits.filter((item) => !item.title.includes('Fibra') && !item.title.includes('Vegan')),
-    nutrition: [],
-    faqs: commonFaqs,
-    precautions: amalakiContent.CO.precautions.filter((item) => !item.includes('presentación de Colombia')),
-    ambassador: {
-      ...amalakiContent.CO.ambassador,
-      shortExplanation: 'Amalaki se prepara con un sobre y agua, y combina amla con ingredientes vegetales para acompañar hábitos cotidianos. Comparte siempre la información confirmada para el mercado de la persona.',
-      connections: amalakiContent.CO.ambassador.connections.map((item) => item.title === 'Si pregunta por información nutricional' ? { ...item, body: 'Comparte únicamente los datos confirmados para el mercado de la persona.' } : item),
-    },
-  };
+  return amalakiContent[resolved];
 }

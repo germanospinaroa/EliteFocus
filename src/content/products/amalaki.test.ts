@@ -1,0 +1,26 @@
+import { describe, expect, it } from 'vitest';
+import { amalakiContent, getAmalakiContent, getAmalakiMarket } from './amalaki';
+
+describe('Amalaki market content', () => {
+  it('resolves Colombia and the United States explicitly', () => {
+    expect(getAmalakiMarket('CO', null)).toBe('CO');
+    expect(getAmalakiMarket(null, 'USA')).toBe('US');
+  });
+
+  it('resolves missing and unknown markets to UNKNOWN', () => {
+    expect(getAmalakiMarket(null, null)).toBe('UNKNOWN');
+    expect(getAmalakiMarket('MX', 'México')).toBe('UNKNOWN');
+    expect(getAmalakiContent(null, null).market).toBe('UNKNOWN');
+  });
+
+  it('keeps market-specific data out of UNKNOWN', () => {
+    const unknown = amalakiContent.UNKNOWN;
+    const text = JSON.stringify(unknown);
+    expect(unknown.nutrition).toEqual([]);
+    expect(text).not.toContain('Colombia');
+    expect(text).not.toContain('Estados Unidos');
+    expect(text).not.toContain('Vegan Friendly');
+    expect(text).not.toContain('INVIMA');
+    expect(text).not.toContain('potasio');
+  });
+});

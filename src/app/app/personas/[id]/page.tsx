@@ -4,7 +4,7 @@ import { createClient } from '@/lib/supabase/server';
 import { createAdminClient } from '@/lib/supabase/admin';
 import { PersonDetailClient } from '@/components/people/person-detail-client';
 
-export default async function PersonDetailPage({ params }: { params: { id: string } }) {
+export default async function PersonDetailPage({ params, searchParams }: { params: { id: string }; searchParams: { product_interest?: string } }) {
   const supabase = createClient(); const { data: { user } } = await supabase.auth.getUser(); if (!user) redirect('/login');
   const admin = createAdminClient(); const { data: actor } = await admin.from('profiles').select('experience_type,platform_role').eq('id', user.id).maybeSingle(); if (actor?.experience_type !== 'AMBASSADOR') redirect('/app');
   const query = admin.from('profiles').select('id,first_name,last_name,email,zilis_id,username,experience_type,must_change_password,onboarding_completed,current_stage,created_at,sponsor_id,advisor_id').eq('id', params.id);
@@ -13,5 +13,5 @@ export default async function PersonDetailPage({ params }: { params: { id: strin
   const relation = person.experience_type === 'AMBASSADOR' ? person.sponsor_id : person.advisor_id;
   const { data: relationProfile } = relation ? await admin.from('profiles').select('first_name,last_name').eq('id', relation).maybeSingle() : { data: null };
   const { data: latestEvent } = await admin.from('events').select('event_name,created_at').eq('user_id', person.id).order('created_at', { ascending: false }).limit(1).maybeSingle();
-  return <main className="real-page person-detail"><div className="admin-back"><Link href="/app/personas">← Personas</Link></div><PersonDetailClient person={person} relationName={relationProfile ? `${relationProfile.first_name ?? ''} ${relationProfile.last_name ?? ''}`.trim() : null} latestEvent={latestEvent} canReset={actor.platform_role === 'OWNER' || person.sponsor_id === user.id || person.advisor_id === user.id} /></main>;
+  return <main className="real-page person-detail"><div className="admin-back"><Link href="/app/personas">← Personas</Link></div><PersonDetailClient person={person} relationName={relationProfile ? `${relationProfile.first_name ?? ''} ${relationProfile.last_name ?? ''}`.trim() : null} latestEvent={latestEvent} canReset={actor.platform_role === 'OWNER' || person.sponsor_id === user.id || person.advisor_id === user.id} productInterest={searchParams.product_interest === 'AMALAKI' ? 'AMALAKI' : null} /></main>;
 }

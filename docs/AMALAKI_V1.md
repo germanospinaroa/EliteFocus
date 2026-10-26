@@ -4,7 +4,7 @@ La experiencia vive en `/app/catalogo/amalaki` y usa una sola base de contenido 
 
 ## Mercado
 
-El selector usa `profiles.market` y, como compatibilidad, `profiles.country`. `CO`, `Colombia`, `US`, `USA` y `Estados Unidos` son reconocidos. Si ambos campos están vacíos, se muestra únicamente el contenido común: no se muestran nutrición, Vegan Friendly ni respuestas específicas de Colombia. La interfaz marca `Mercado por confirmar`; esto evita presentar un mercado como si aplicara automáticamente al otro sin crear una migración o una pantalla de fricción adicional.
+El selector usa `profiles.market` y, como compatibilidad, `profiles.country`. `CO`, `Colombia`, `US`, `USA` y `Estados Unidos` son reconocidos. Cualquier valor ausente o desconocido resuelve al mercado explícito `UNKNOWN`: solo muestra contenido común, sin nutrición, Vegan Friendly ni respuestas específicas de Colombia o Estados Unidos. La interfaz marca `Mercado por confirmar`; esto evita presentar un mercado como si aplicara automáticamente al otro sin crear una migración o una pantalla de fricción adicional.
 
 ## Progreso y Eli
 
