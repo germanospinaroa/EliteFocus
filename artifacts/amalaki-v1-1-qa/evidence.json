@@ -1,0 +1,32 @@
+{
+  "contract": "Amalaki V1.1: mobile-first product guidance for VIP and Ambassador at 390x844 and desktop at 1440x1000.",
+  "targetViewports": ["390x844", "1440x1000"],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Authenticated browser QA exercised keyboard-capable native details/summary controls, visible focus rules, touch-sized buttons, live usage feedback, and safe-area spacing."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Rendered mobile and desktop captures show the compact hero, readable facts, disclosures, Eli prompts, Ambassador actions, and fixed mobile navigation without horizontal overflow."
+  },
+  "contentStates": {
+    "loading": { "status": "not-applicable", "reason": "No bespoke loading state is introduced by this presentation-only iteration." },
+    "empty": { "status": "not-applicable", "reason": "Amalaki content is supplied by the validated product dataset in all QA market fixtures." },
+    "error": { "status": "not-applicable", "reason": "No new error surface was changed in this iteration." },
+    "partial": { "status": "pass", "evidence": "UNKNOWN market visibly communicates that market confirmation is needed and excludes market-specific details." },
+    "success": { "status": "pass", "evidence": "Usage action displays personalized micro-feedback: Perfecto, Sofía. Ya tienes lo esencial para empezar con tranquilidad." },
+    "permission": { "status": "pass", "evidence": "VIP fixtures do not render Ambassador tools; Ambassador fixture renders the sharing layer." }
+  },
+  "renderedEvidence": [
+    { "viewport": "390x844", "artifact": "vip-co-01-hero.png", "observation": "VIP Colombia hero with compact product image and both primary actions visible." },
+    { "viewport": "390x844", "artifact": "vip-co-02-uso.png", "observation": "Personalized three-step usage section with clear micro-victory action." },
+    { "viewport": "390x844", "artifact": "vip-co-03-conoce-mejor.png", "observation": "Secondary depth block with compact ingredient accordions and readable information card." },
+    { "viewport": "390x844", "artifact": "vip-co-04-eli.png", "observation": "Eli presented as a conversational support block with four comfortable prompts." },
+    { "viewport": "390x844", "artifact": "amb-co-01-share.png", "observation": "Ambassador actions are compact, closed disclosures leading to a real-person CTA." },
+    { "viewport": "390x844", "artifact": "amb-co-02-roleplay.png", "observation": "Roleplay remains a warm practice invitation rather than an assessment." },
+    { "viewport": "390x844", "artifact": "amb-co-03-persona.png", "observation": "Ambassador transition to choosing a Person with Amalaki context." },
+    { "viewport": "390x844", "artifact": "unknown-01-market.png", "observation": "UNKNOWN market label and human confirmation message without Colombia-specific content." },
+    { "viewport": "1440x1000", "artifact": "vip-co-desktop.png", "observation": "VIP desktop hero and facts maintain the existing Elite Focus shell." },
+    { "viewport": "1440x1000", "artifact": "amb-co-desktop.png", "observation": "Ambassador desktop retains the same product-first hierarchy and role-specific shell." }
+  ]
+}

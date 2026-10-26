@@ -142,3 +142,67 @@ h1 { font-size:clamp(30px, 4vw, 46px); line-height:1.02; letter-spacing:-.055em;
 .amalaki-more-section{margin:42px 0;border:1px solid var(--border);border-radius:18px;background:var(--surface);padding:0 22px}.amalaki-more-section>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font-size:17px}.amalaki-more-section>summary::-webkit-details-marker{display:none}.amalaki-more-section>summary:after{content:'+';font-size:22px;color:var(--primary)}.amalaki-more-section[open]>summary:after{content:'−'}.amalaki-more-section>summary span{display:grid;gap:5px}.amalaki-more-section>summary small{font-size:12px;font-weight:400;color:var(--muted)}.amalaki-more-grid{display:grid;gap:32px;padding:8px 0 28px}.amalaki-more-grid>section{border-top:1px solid var(--border);padding-top:24px}.amalaki-more-grid h3{margin:0 0 12px;font-size:20px;letter-spacing:-.035em}.amalaki-more-grid .amalaki-important{margin:0;display:grid}.amalaki-ambassador-actions{display:grid;gap:0}.amalaki-ambassador-actions>details{border-top:1px solid var(--border);padding:0}.amalaki-ambassador-actions>details>summary{padding:20px 0}.amalaki-ambassador-actions .amalaki-card-grid{margin-top:20px}.amalaki-ambassador-actions .amalaki-avoid{margin:0 0 18px}.amalaki-ambassador-actions .amalaki-share-copy{padding:2px 0 20px}.amalaki-disclosure summary:focus-visible,.amalaki-ingredients summary:focus-visible,.amalaki-faqs summary:focus-visible,.amalaki-important summary:focus-visible,.amalaki-more-section>summary:focus-visible,.amalaki-ambassador-actions summary:focus-visible{outline:3px solid #9ebce4;outline-offset:4px;border-radius:6px}.amalaki-ambassador-actions summary{cursor:pointer;font-weight:800;list-style:none;display:flex;justify-content:space-between;gap:20px}.amalaki-ambassador-actions summary::-webkit-details-marker{display:none}.amalaki-ambassador-actions summary:after{content:'+';color:var(--primary);font-size:20px}.amalaki-ambassador-actions details[open]>summary:after{content:'−'}.context-banner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 24px;margin:22px 0;border:1px solid #d5e1ee;border-radius:18px;background:#f3f7fb}.context-banner h2{font-size:21px;letter-spacing:-.04em;margin:8px 0}.context-banner p{color:var(--muted);margin:0;line-height:1.6}.outcome-panel{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:22px 0}.outcome-panel h2{margin:8px 0;font-size:24px;letter-spacing:-.04em}.outcome-panel p{color:var(--muted);line-height:1.6}.outcome-form{display:grid;gap:14px;align-content:start}.outcome-form label{display:grid;gap:7px;font-size:12px;font-weight:700}.outcome-form select,.outcome-form input{padding:13px;border:1px solid var(--border);border-radius:10px;background:var(--background);color:var(--foreground);font:inherit}.outcome-form select:focus-visible,.outcome-form input:focus-visible{outline:3px solid #9ebce4;outline-offset:3px}
 @media(max-width:760px){.amalaki-more-section{margin:30px 0;padding:0 16px}.amalaki-more-section>summary{padding:18px 0}.context-banner{display:grid;padding:20px;margin:18px 0}.outcome-panel{grid-template-columns:1fr;padding:20px}.outcome-form .primary{width:100%}}
 .roleplay-feedback-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.roleplay-feedback-actions button{min-height:44px}.roleplay-feedback-actions .secondary{border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--foreground);padding:12px 16px;cursor:pointer;font-weight:800;font-size:12px}.roleplay-feedback-actions button:focus-visible,.amalaki-more:focus-visible{outline:3px solid #9ebce4;outline-offset:3px;border-radius:6px}
+
+/* Amalaki V1.1: a shorter path from recognition to a confident next step. */
+.amalaki-page{padding-top:26px;padding-bottom:calc(92px + env(safe-area-inset-bottom, 0px))}
+.amalaki-hero{gap:34px;padding:24px 0 14px}
+.amalaki-hero h1{margin:8px 0;font-size:clamp(48px,6.5vw,80px);text-wrap:balance}
+.amalaki-hero__headline{margin-bottom:14px;text-wrap:balance}
+.amalaki-hero__image img{width:min(100%,480px)}
+.amalaki-market-note{max-width:520px;margin:13px 0 0;color:var(--primary);font-size:12px;line-height:1.5;font-weight:700}
+.amalaki-actions{margin-top:20px}
+.amalaki-facts{margin:10px 0 48px}
+.amalaki-facts>div{padding:18px 20px}
+.amalaki-section{padding:52px 0}
+.section-intro{margin-bottom:20px}
+.section-intro h2{margin:8px 0;text-wrap:balance}
+.section-intro p,.amalaki-section p,.amalaki-finish p{ text-wrap:pretty }
+.amalaki-steps{margin:20px 0 14px}
+.amalaki-step{padding:20px}
+.amalaki-note{margin-bottom:16px}
+.amalaki-usage-feedback{margin:14px 0 0;font-size:13px;color:var(--success)!important}
+.amalaki-usage-feedback strong{font-weight:800}
+.amalaki-card-grid{gap:12px}
+.amalaki-card{padding:20px}
+.amalaki-more-section{margin:30px 0}
+.amalaki-more-grid{gap:24px;padding-bottom:22px}
+.amalaki-more-grid>section{padding-top:20px}
+.amalaki-more-grid h3{margin-bottom:8px}
+.amalaki-important{margin:42px 0}
+.amalaki-eli{margin:48px 0;padding:30px}
+.amalaki-eli h2,.amalaki-ambassador h2,.amalaki-finish h2{ text-wrap:balance }
+.amalaki-quick-prompts{margin-top:18px}
+.amalaki-quick-prompts button{min-height:62px;padding:14px}
+.amalaki-ambassador{padding:32px 26px}
+.amalaki-ambassador-actions>details>summary{padding:17px 0;min-height:52px;align-items:center}
+.amalaki-next{margin-top:24px;padding-top:21px}
+.amalaki-finish{padding:52px 20px 12px}
+.amalaki-finish--ambassador{padding-top:42px}
+.amalaki-page button,.amalaki-page a.primary,.amalaki-page a.secondary-button{min-height:44px}
+.amalaki-page button:focus-visible,.amalaki-page a:focus-visible{outline:3px solid #9ebce4;outline-offset:3px}
+@media(max-width:760px){
+  .amalaki-page{padding:18px 20px calc(116px + env(safe-area-inset-bottom, 0px))}
+  .amalaki-hero{gap:10px;padding-top:20px}
+  .amalaki-hero__image img{width:min(46vw,160px)}
+  .amalaki-market-note{margin-top:10px}
+  .amalaki-hero h1{font-size:56px}
+  .amalaki-hero__headline{font-size:29px}
+  .amalaki-hero__copy .lead{font-size:13px;line-height:1.4}
+  .amalaki-actions{margin-top:17px}
+  .amalaki-facts{margin-bottom:32px}
+  .amalaki-section{padding:38px 0}
+  .amalaki-steps{gap:10px;margin-top:16px}
+  .amalaki-step{padding:18px}
+  .amalaki-usage-feedback{margin-top:12px}
+  .amalaki-more-section{margin:24px 0}
+  .amalaki-important{margin:34px 0}
+  .amalaki-more-grid .amalaki-important{display:block}
+  .amalaki-eli{margin:38px 0;padding:22px 18px}
+  .amalaki-quick-prompts{gap:8px}
+  .amalaki-quick-prompts button{min-height:52px;padding:14px 13px}
+  .amalaki-ambassador{padding:22px 16px}
+  .amalaki-ambassador-actions>details>summary{padding:15px 0}
+  .amalaki-next{margin-top:20px}
+  .amalaki-next .primary{width:100%;display:inline-flex;align-items:center;justify-content:center}
+  .amalaki-finish{padding-top:38px}
+}
