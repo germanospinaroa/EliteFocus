@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "bootstrap:owner": "tsx scripts/bootstrap-owner.ts"
+    "bootstrap:owner": "tsx scripts/bootstrap-owner.ts",
+    "qa:setup": "tsx scripts/qa-fixtures.ts setup",
+    "qa:reset": "tsx scripts/qa-fixtures.ts reset",
+    "qa:status": "tsx scripts/qa-fixtures.ts status"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
