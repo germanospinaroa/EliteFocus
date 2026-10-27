@@ -53,13 +53,13 @@ const marketData: Record<AmalakiMarket, ProductContent['marketContent']> = {
     heroFacts: [{ value: '30 sobres', label: 'por envase' }, { value: '7,2 g', label: 'por sobre' }, { value: '216 g', label: 'contenido total' }],
     nutrition: [{ value: '18 kcal', label: 'por porción' }, { value: '6 g', label: 'carbohidratos' }, { value: '3 g', label: 'fibra dietaria' }, { value: '100 mg', label: 'potasio' }, { value: '0,90 mg', label: 'hierro' }, { value: '5 mg', label: 'sodio' }, { value: '0 g', label: 'grasa y proteína' }],
     usage: ['Abre un sobre de 7,2 g.', 'Mézclalo con aproximadamente 240 ml de agua.', 'Tómalo una vez al día.'],
-    precautions: ['No se presenta como medicamento ni como tratamiento de enfermedades.', 'Conserva el producto en un lugar fresco y seco, preferiblemente por debajo de 22 °C.', 'La cifra de 0,6 g de azúcares y la distinción entre azúcares totales y añadidos requieren comprobación contra la etiqueta exacta.'],
+    precautions: ['Amalaki es un alimento en polvo, no un medicamento ni un tratamiento para enfermedades.', 'Conserva el producto en un lugar fresco y seco, preferiblemente por debajo de 22 °C.'],
     claims: [
       { title: '3 g de fibra dietaria', body: 'Por porción de 7,2 g de la presentación colombiana.', reviewStatus: 'APPROVED_FOR_MARKET', source: sourcePrompt },
       { title: 'Amla y otros ingredientes vegetales', body: 'Incluye tulsi, jengibre, haritaki, schizandra y otros componentes identificados en la ficha.', reviewStatus: 'APPROVED_FOR_MARKET', source: sourcePrompt },
       { title: 'Antioxidantes, digestión, inmunidad y vitalidad', body: 'Aparecen en materiales promocionales previos, pero no se publican sin revisión de sustento y cumplimiento.', reviewStatus: 'EXCLUDED', source: sourceRepository },
     ],
-    faqs: commonFaqs('CO'), regulatory: ['Registro sanitario documentado: INVIMA RSA-0034151-2024.', 'Sello Vegan Friendly documentado.', 'Etiquetado frontal sobre azúcares y edulcorantes documentado; revisar etiqueta primaria antes de ampliar el texto.'], resources: [sourcePrompt],
+    faqs: commonFaqs('CO'), regulatory: ['Registro sanitario INVIMA: RSA-0034151-2024.', 'El material de esta presentación indica Vegan Friendly.'], resources: [sourcePrompt],
   },
   US: {
     market: 'US', marketLabel: 'Estados Unidos', presentation: '30 sobres individuales de 7,2 g; contenido total documentado de 216 g.',
@@ -72,7 +72,7 @@ const marketData: Record<AmalakiMarket, ProductContent['marketContent']> = {
       { title: 'Amla y otros ingredientes vegetales', body: 'Incluye tulsi, jengibre, haritaki, schizandra y otros componentes identificados en la ficha.', reviewStatus: 'APPROVED_FOR_MARKET', source: sourcePrompt },
       { title: 'Antioxidantes, digestión, inmunidad, vitalidad y bienestar cardiovascular', body: 'Aparecen como enfoques en flyers, pero no se publican sin revisión específica de sustento y cumplimiento para Estados Unidos.', reviewStatus: 'EXCLUDED', source: sourceRepository },
     ],
-    faqs: commonFaqs('US'), regulatory: ['La ficha estadounidense consultada incluye advertencias para menores de 18 años y embarazo/lactancia.', 'No se publica un registro sanitario estadounidense porque no existe una fuente primaria en el repositorio.'], resources: [sourcePrompt],
+    faqs: commonFaqs('US'), regulatory: ['La información de esta presentación incluye advertencias para menores de 18 años y para embarazo o lactancia.'], resources: [sourcePrompt],
   },
   UNKNOWN: { market: 'UNKNOWN', marketLabel: 'Mercado por confirmar', presentation: 'La presentación específica se muestra después de elegir un mercado.', heroFacts: [], nutrition: [], usage: [], precautions: [], claims: [], faqs: [], regulatory: [], resources: [] },
 };
