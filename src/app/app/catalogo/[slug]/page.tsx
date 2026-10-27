@@ -13,7 +13,9 @@ export default async function CatalogProductPage({ params, searchParams }: { par
     const supabase = createClient();
     const { data: { user } } = await supabase.auth.getUser();
     const { data: profile } = user ? await supabase.from('profiles').select('first_name,preferred_name,experience_type,market,country').eq('id', user.id).maybeSingle() : { data: null };
-    const content = searchParams.market ? getAmalakiContent(searchParams.market, null) : getAmalakiContent(profile?.market, profile?.country);
+    // Colombia is the default product edition for everyone. Only an explicit US selection changes it.
+    const selectedMarket = searchParams.market?.toUpperCase() === 'US' ? 'US' : 'CO';
+    const content = getAmalakiContent(selectedMarket, null);
     const firstName = String(profile?.first_name ?? profile?.preferred_name ?? 'allí');
     const role = profile?.experience_type === 'AMBASSADOR' ? 'AMBASSADOR' : 'CLIENT_VIP';
     return <AmalakiExperience content={content} firstName={firstName} role={role} />;
