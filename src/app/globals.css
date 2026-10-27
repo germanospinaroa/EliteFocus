@@ -145,6 +145,7 @@ h1 { font-size:clamp(30px, 4vw, 46px); line-height:1.02; letter-spacing:-.055em;
 
 /* Amalaki V1.1: a shorter path from recognition to a confident next step. */
 .amalaki-page{padding-top:26px;padding-bottom:calc(92px + env(safe-area-inset-bottom, 0px))}
+.amalaki-market-selector{display:flex;align-items:center;gap:10px;margin-bottom:18px;max-width:330px}.amalaki-market-selector label{font-size:11px;font-weight:800;color:var(--muted);white-space:nowrap}.amalaki-market-selector select{min-height:42px;padding:9px 34px 9px 12px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--foreground);font:inherit;font-size:13px;font-weight:700}.amalaki-market-selector select:focus-visible{outline:3px solid #9ebce4;outline-offset:3px}
 .amalaki-hero{gap:34px;padding:24px 0 14px}
 .amalaki-hero h1{margin:8px 0;font-size:clamp(48px,6.5vw,80px);text-wrap:balance}
 .amalaki-hero__headline{margin-bottom:14px;text-wrap:balance}
@@ -181,6 +182,7 @@ h1 { font-size:clamp(30px, 4vw, 46px); line-height:1.02; letter-spacing:-.055em;
 .amalaki-page button,.amalaki-page a.primary,.amalaki-page a.secondary-button{min-height:44px}
 .amalaki-page button:focus-visible,.amalaki-page a:focus-visible{outline:3px solid #9ebce4;outline-offset:3px}
 @media(max-width:760px){
+.amalaki-market-selector{display:grid;gap:6px;max-width:none;margin-bottom:14px}.amalaki-market-selector select{width:100%}
   .amalaki-page{padding:18px 20px calc(116px + env(safe-area-inset-bottom, 0px))}
   .amalaki-hero{gap:10px;padding-top:20px}
   .amalaki-hero__image img{width:min(46vw,160px)}

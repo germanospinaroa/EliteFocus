@@ -1,14 +1,11 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { amalakiContent, type AmalakiMarket } from '@/content/products/amalaki';
 
-const scenarios = [
-  { title: 'Curioso', prompt: 'La persona pregunta: “¿Pero qué es Amalaki?”', answer: 'Explicar la idea en una frase y preguntar qué le llamó la atención.', feedback: 'Muy bien. Una explicación breve deja espacio para escuchar.' },
-  { title: 'Práctico', prompt: 'La persona pregunta: “¿Cómo se toma y cuánto dura?”', answer: 'Un sobre al día, con aproximadamente 240 ml de agua; una caja tiene 30 sobres.', feedback: 'Claro y útil. Compartiste solo la información necesaria.' },
-  { title: 'Límite responsable', prompt: 'La persona pregunta si puede usarlo con una condición médica o medicamentos.', answer: 'No diagnosticar. Compartir la información disponible y recomendar consultar con un profesional de salud.', feedback: 'Excelente límite. Saber cuándo no responder también es cuidar.' },
-];
-
-export function AmalakiRoleplay({ firstName, market = 'UNKNOWN' }: { firstName: string; market?: string }) {
+export function AmalakiRoleplay({ firstName, market = 'UNKNOWN' }: { firstName: string; market?: AmalakiMarket }) {
+  const content = amalakiContent[market];
+  const scenarios = content.ambassador.roleplay;
   const router = useRouter(); const [index, setIndex] = useState(0); const [feedback, setFeedback] = useState(''); const [busy, setBusy] = useState(false);
   useEffect(() => { void fetch('/api/product-events', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ eventName: 'product_roleplay_started', market, section: 'roleplay' }) }); }, [market]);
   async function finish() { setBusy(true); void fetch('/api/product-events', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ eventName: 'product_roleplay_completed', market, section: 'roleplay' }) }); const response = await fetch('/api/roleplay/complete', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ startedAt: new Date().toISOString(), scenario: 'amalaki' }) }); if (response.ok) router.push('/app/catalogo/amalaki'); else setBusy(false); }

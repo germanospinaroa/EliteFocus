@@ -23,4 +23,19 @@ describe('Amalaki market content', () => {
     expect(text).not.toContain('INVIMA');
     expect(text).not.toContain('potasio');
   });
+
+  it('keeps the two nutrition tables isolated', () => {
+    expect(getAmalakiContent('CO').nutrition.map((item) => item.value)).toContain('18 kcal');
+    expect(getAmalakiContent('CO').nutrition.map((item) => item.value)).not.toContain('25 cal');
+    expect(getAmalakiContent('US').nutrition.map((item) => item.value)).toContain('25 cal');
+    expect(getAmalakiContent('US').nutrition.map((item) => item.value)).not.toContain('18 kcal');
+  });
+
+  it('contains distinct, substantive explanation levels', () => {
+    const content = getAmalakiContent('CO');
+    expect(content.common.shortExplanation).not.toBe(content.common.quickExplanation);
+    expect(content.common.quickExplanation).not.toBe(content.common.fullExplanation);
+    expect(content.common.fullExplanation).toContain('Phyllanthus emblica');
+    expect(content.common.fullExplanation).toContain('240 ml');
+  });
 });

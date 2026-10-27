@@ -7,13 +7,13 @@ import { createClient } from '@/lib/supabase/server';
 import { getAmalakiContent } from '@/content/products/amalaki';
 import { AmalakiExperience } from '@/components/catalog/amalaki-experience';
 
-export default async function CatalogProductPage({ params }: { params: { slug: string } }) {
+export default async function CatalogProductPage({ params, searchParams }: { params: { slug: string }; searchParams: { market?: string } }) {
   const product = getCatalogProduct(params.slug); if (!product) notFound();
   if (params.slug === 'amalaki') {
     const supabase = createClient();
     const { data: { user } } = await supabase.auth.getUser();
     const { data: profile } = user ? await supabase.from('profiles').select('first_name,preferred_name,experience_type,market,country').eq('id', user.id).maybeSingle() : { data: null };
-    const content = getAmalakiContent(profile?.market, profile?.country);
+    const content = searchParams.market ? getAmalakiContent(searchParams.market, null) : getAmalakiContent(profile?.market, profile?.country);
     const firstName = String(profile?.first_name ?? profile?.preferred_name ?? 'allí');
     const role = profile?.experience_type === 'AMBASSADOR' ? 'AMBASSADOR' : 'CLIENT_VIP';
     return <AmalakiExperience content={content} firstName={firstName} role={role} />;
