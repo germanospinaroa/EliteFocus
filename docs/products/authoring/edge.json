@@ -172,7 +172,13 @@
       "¿Cómo se prepara?",
       "¿Qué es Mimetix?",
       "¿Cuánta B12 contiene?"
-    ]
+    ],
+    "answers": {
+      "¿Cuánta cafeína tiene?": "La cantidad exacta de cafeína no está declarada por separado. Los 130 mg corresponden a una mezcla con varios ingredientes, entre ellos cafeína, no a cafeína sola.",
+      "¿Cómo se prepara?": "Se mezcla un sobre de 3 g de UltraEdge en aproximadamente 120 a 180 ml de agua.",
+      "¿Qué es Mimetix?": "Es una mezcla de componentes y extractos vegetales, como té verde, lúpulo, cúrcuma, jengibre y equinácea. La etiqueta consultada declara 60 mg de mezcla por porción.",
+      "¿Cuánta B12 contiene?": "La ficha de la presentación estadounidense declara 200 microgramos de vitamina B12 por sobre."
+    }
   },
   "ambassador": {
     "intro": "{firstName}, explicar UltraEdge correctamente significa distinguir la mezcla total de la cantidad de cafeína.",
