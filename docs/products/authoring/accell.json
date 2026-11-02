@@ -130,7 +130,13 @@
       "¿Qué es Trikatu?",
       "¿Cómo se prepara?",
       "¿Tiene vitaminas B?"
-    ]
+    ],
+    "answers": {
+      "¿Cuánta cafeína tiene?": "El flyer de ACCELL indica 135 mg de cafeína por porción. Si tomas otras bebidas con cafeína, tenlo presente.",
+      "¿Qué es Trikatu?": "Es el nombre de una mezcla tradicional de pimienta negra, pimienta larga y jengibre, mencionada entre los ingredientes de ACCELL.",
+      "¿Cómo se prepara?": "El flyer permite prepararlo con agua fría o caliente. No disponemos de la cantidad exacta de agua confirmada por una etiqueta vigente.",
+      "¿Tiene vitaminas B?": "El material comercial de Zilis menciona vitaminas del grupo B, pero los archivos revisados no detallan cuáles ni sus cantidades."
+    }
   },
   "ambassador": {
     "intro": "{firstName}, cuando compartas ACCELL habla primero de su preparación, ingredientes y contenido de cafeína.",
