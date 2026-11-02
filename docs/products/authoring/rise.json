@@ -142,7 +142,13 @@
       "¿Se puede tomar frío?",
       "¿Cuántas calorías tiene?",
       "¿Cuánta cafeína tiene?"
-    ]
+    ],
+    "answers": {
+      "¿Es café colombiano?": "Según el material de Zilis, RISE utiliza café arábica colombiano. Eso describe el origen del café, no valida por sí mismo el país de comercialización del producto.",
+      "¿Se puede tomar frío?": "Sí. La ficha indica que el contenido puede disolverse en agua fría o caliente.",
+      "¿Cuántas calorías tiene?": "La tabla nutricional revisada indica 10 calorías por porción individual de 3 g.",
+      "¿Cuánta cafeína tiene?": "RISE contiene cafeína natural del café, pero la documentación disponible no indica cuántos miligramos contiene cada porción."
+    }
   },
   "ambassador": {
     "intro": "{firstName}, empieza por lo que hace reconocible a RISE: café arábica, amla y café verde.",
