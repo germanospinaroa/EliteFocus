@@ -1,0 +1,181 @@
+{
+  "slug": "rise",
+  "name": "RISE",
+  "edition": "CO",
+  "editionStatus": "LATAM_MARKETING_REFERENCE_MARKET_AND_CURRENT_REGISTRATION_UNCONFIRMED",
+  "image": "/catalog/rise-product.png",
+  "sources": [
+    {
+      "id": "15U1LWuF7fR_f6KXRVuY7joyj8ob89ZdK",
+      "name": "Ficha tecnica RISE.docx"
+    },
+    {
+      "id": "1uZ5tAtLxJ6MiNtXWMnPBtS2MnN-6QXmF",
+      "name": "INFORMACION-RISE.pdf"
+    },
+    {
+      "id": "1AaDPadLqMHk9zjH0G53o7vC3WKvtmJEp",
+      "name": "info-RISE-latam.pdf"
+    }
+  ],
+  "hero": {
+    "eyebrow": "RISE · Café soluble",
+    "headline": "Café arábica colombiano con extracto de café verde y amla.",
+    "description": "RISE combina el sabor del café instantáneo con dos ingredientes vegetales adicionales y se prepara con agua fría o caliente.",
+    "facts": [
+      [
+        "20 porciones",
+        "según ficha"
+      ],
+      [
+        "3 g",
+        "por porción"
+      ],
+      [
+        "0 g",
+        "azúcar por porción, según tabla aportada"
+      ]
+    ]
+  },
+  "explanations": {
+    "one": "RISE es un café soluble de Zilis elaborado con café arábica colombiano, extracto de café verde y extracto natural de amla.",
+    "quick": "RISE reúne tres ingredientes destacados: café arábica colombiano, extracto de café verde y amla, también llamada amalaki. Viene en porciones individuales de café soluble que pueden prepararse con agua fría o caliente. Su documentación describe una porción de 3 g con 10 calorías y sin azúcar declarada por porción.",
+    "full": "El café arábica colombiano da a RISE su base de sabor y aroma. El extracto de café verde proviene de granos de café sin tostar y la amla es una fruta conocida por su uso tradicional en Ayurveda. Los materiales de la marca destacan compuestos presentes en estos ingredientes, pero esas descripciones no demuestran efectos clínicos del producto terminado. La ficha describe 20 porciones de 3 g y recomienda disolver una porción en aproximadamente 177 a 237 ml de agua, fría o caliente. Contiene cafeína natural del café, aunque su cantidad exacta por sobre no aparece en los documentos revisados."
+  },
+  "ingredients": [
+    [
+      "Café arábica colombiano",
+      "Café soluble elaborado a partir de café arábica cultivado en Colombia, según el material Zilis.",
+      "Es la base del sabor, el aroma y la cafeína natural de la bebida."
+    ],
+    [
+      "Extracto de café verde",
+      "Extracto procedente de granos de café que no han sido tostados.",
+      "Ingrediente adicional de la mezcla; no se atribuyen resultados clínicos a RISE por su presencia."
+    ],
+    [
+      "Amla (amalaki)",
+      "Fruta Phyllanthus emblica, conocida en tradiciones ayurvédicas.",
+      "Ingrediente vegetal que acompaña al café y al extracto de café verde."
+    ]
+  ],
+  "features": [
+    [
+      "Café arábica colombiano",
+      "La marca identifica café arábica colombiano como ingrediente principal."
+    ],
+    [
+      "Frío o caliente",
+      "Se prepara disolviendo el contenido en agua a la temperatura elegida."
+    ],
+    [
+      "10 calorías",
+      "Cantidad por porción de 3 g documentada en la tabla de la ficha."
+    ],
+    [
+      "0 g de azúcar",
+      "Declaración de la tabla nutricional aportada por porción."
+    ]
+  ],
+  "nutrition": [
+    [
+      "10 cal",
+      "por porción de 3 g"
+    ],
+    [
+      "2 g",
+      "carbohidratos por porción"
+    ],
+    [
+      "0 g",
+      "azúcares por porción"
+    ]
+  ],
+  "usage": {
+    "steps": [
+      "Abre una porción individual de 3 g.",
+      "Disuélvela en aproximadamente 177 a 237 ml de agua fría o caliente.",
+      "Revuelve hasta integrar el café."
+    ],
+    "note": "No tenemos una frecuencia máxima diaria validada ni cantidad exacta de cafeína. La ficha disponible no confirma el etiquetado vigente por país."
+  },
+  "precautions": [
+    "Contiene cafeína natural del café; la cantidad por porción no está documentada.",
+    "El material indica que no se recomienda durante el embarazo ni la lactancia.",
+    "Guardar cerrado en lugar fresco y seco; evitar calor y humedad.",
+    "La certificación Halal, libre de gluten y el registro local requieren verificación de vigencia antes de mostrarse como acreditaciones."
+  ],
+  "faqs": [
+    [
+      "¿Qué es RISE?",
+      "Es un café soluble que combina café arábica colombiano, extracto de café verde y amla."
+    ],
+    [
+      "¿Se prepara con agua fría?",
+      "Sí. La ficha indica agua fría o caliente."
+    ],
+    [
+      "¿Cuánto café uso?",
+      "La ficha indica una porción individual de 3 g en aproximadamente 177 a 237 ml de agua."
+    ],
+    [
+      "¿Cuántas calorías tiene?",
+      "La tabla aportada indica 10 calorías por porción de 3 g."
+    ],
+    [
+      "¿Tiene azúcar?",
+      "La tabla aportada registra 0 g de azúcar por porción."
+    ],
+    [
+      "¿Cuánta cafeína contiene?",
+      "La documentación confirma que contiene cafeína del café, pero no proporciona la cantidad exacta."
+    ],
+    [
+      "¿En qué se diferencia del café convencional?",
+      "Además del café arábica, RISE incluye extracto de café verde y amla. No se deben inferir beneficios médicos de esa diferencia."
+    ]
+  ],
+  "eli": {
+    "intro": "¿Qué te gustaría saber sobre RISE, {firstName}?",
+    "prompts": [
+      "¿Es café colombiano?",
+      "¿Se puede tomar frío?",
+      "¿Cuántas calorías tiene?",
+      "¿Cuánta cafeína tiene?"
+    ]
+  },
+  "ambassador": {
+    "intro": "{firstName}, empieza por lo que hace reconocible a RISE: café arábica, amla y café verde.",
+    "one": "RISE es un café soluble con arábica colombiano, extracto de café verde y amla, fácil de preparar con agua fría o caliente.",
+    "listen": [
+      "¿Cómo prefieres el café: caliente o frío?",
+      "¿Qué te interesa más: el sabor, los ingredientes o la preparación?",
+      "¿Sueles revisar la cafeína de los cafés que tomas?"
+    ],
+    "avoid": [
+      "No prometas concentración, resistencia, digestión o bienestar clínico.",
+      "No afirmes que no contiene cafeína.",
+      "No cites certificaciones antiguas como vigentes.",
+      "No presentes el origen colombiano del café como prueba de que la versión se comercializa legalmente en Colombia."
+    ],
+    "roleplay": [
+      {
+        "question": "¿Qué tiene de diferente este café?",
+        "example": "RISE tiene café arábica colombiano y, además, extracto de café verde y amla. Se prepara con agua fría o caliente.",
+        "feedback": "Destaca diferencias verificables y evita exagerar beneficios."
+      },
+      {
+        "question": "¿Cuántos miligramos de cafeína trae?",
+        "example": "Sabemos que contiene cafeína natural del café, pero la ficha no indica una cantidad exacta por porción.",
+        "feedback": "No inventes cifras de cafeína."
+      }
+    ]
+  },
+  "excluded": [
+    "RISE incrementa resistencia o concentración garantizadas",
+    "Cantidad exacta de cafeína",
+    "Registro INVIMA vigente sin número",
+    "Certificación Halal o libre de gluten actual sin verificación"
+  ],
+  "publicationNote": "CO preseleccionada como contexto de consulta, pero NO afirmar presentación autorizada para CO. Mostrar nota breve de que el etiquetado vigente del mercado no está confirmado. No fabricar versión US."
+}
