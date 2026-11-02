@@ -2,7 +2,7 @@
   "slug": "ultra-dream",
   "name": "UltraDream",
   "edition": "US",
-  "editionStatus": "US_LABEL_DETAILS_IN_FICHA_FLYER_HAS_DIFFERENT_BOTTLE_SIZE",
+  "editionStatus": "US_FLYER_60_ML_60_SERVINGS_AND_SEPARATE_30_ML_VARIANT_IN_FICHA",
   "image": null,
   "sources": [
     {
@@ -25,26 +25,26 @@
   "hero": {
     "eyebrow": "UltraDream · Rutina nocturna",
     "headline": "GABA, melatonina y manzanilla en un suplemento líquido para la noche.",
-    "description": "UltraDream combina una mezcla para el sueño con Mimetix, que incluye extractos vegetales. La ficha de una presentación describe un frasco gotero de 30 mL.",
+    "description": "UltraDream combina una mezcla para el sueño con Mimetix, que incluye extractos vegetales. El flyer de Estados Unidos describe una presentación de 60 mL.",
     "facts": [
       [
         "1 mL",
         "porción declarada"
       ],
       [
-        "50 mg",
-        "mezcla de soporte de sueño"
+        "60 porciones",
+        "por frasco de 60 mL del flyer"
       ],
       [
-        "100 mg",
-        "mezcla Mimetix"
+        "50 mg + 100 mg",
+        "mezcla para el sueño y Mimetix"
       ]
     ]
   },
   "explanations": {
     "one": "UltraDream es un suplemento líquido de Zilis que combina GABA, melatonina, manzanilla y una mezcla vegetal llamada Mimetix.",
     "quick": "UltraDream reúne una mezcla de 50 mg que incluye GABA, melatonina y manzanilla, y otra de 100 mg llamada Mimetix, con extractos vegetales de té verde, lúpulo, cúrcuma, jengibre y equinácea. Zilis lo presenta como un suplemento para una rutina nocturna; contiene melatonina y requiere precauciones de seguridad específicas.",
-    "full": "La melatonina es una hormona que participa en la regulación normal del ciclo sueño-vigilia. GABA es el nombre de un neurotransmisor del organismo y la manzanilla es una planta con larga historia de uso tradicional. UltraDream incorpora estos ingredientes en una mezcla de 50 mg por porción de 1 mL; la etiqueta no desglosa la cantidad individual de melatonina ni de GABA. También contiene 100 mg de Mimetix, combinación de extractos vegetales utilizada por Zilis. El fabricante presenta UltraCell como tecnología de formulación soluble en agua. Una ficha basada en un frasco fotografiado describe 30 mL con 30 porciones, mientras un flyer aporta 60 porciones: son referencias de presentaciones diferentes y no deben fusionarse."
+    "full": "La melatonina es una hormona que participa en la regulación normal del ciclo sueño-vigilia. GABA es el nombre de un neurotransmisor del organismo y la manzanilla es una planta con larga historia de uso tradicional. UltraDream incorpora estos ingredientes en una mezcla de 50 mg por porción de 1 mL; la etiqueta no desglosa la cantidad individual de melatonina ni de GABA. También contiene 100 mg de Mimetix, combinación de extractos vegetales utilizada por Zilis. El fabricante presenta UltraCell como tecnología de formulación soluble en agua. El flyer de Estados Unidos describe un frasco de 60 mL con 60 porciones de 1 mL; existe otra variante de 30 mL y 30 porciones documentada en la ficha, que debe identificarse como presentación distinta. La tabla de ingredientes y las instrucciones solo deben vincularse a la versión efectivamente consultada."
   },
   "ingredients": [
     [
@@ -120,7 +120,7 @@
     ],
     [
       "¿Cuántas porciones trae?",
-      "La ficha de un frasco de 30 mL informa 30 porciones. Otro flyer menciona 60, por lo que debes revisar qué envase tienes."
+      "El flyer estadounidense revisado corresponde a 60 mL y 60 porciones de 1 mL. Otra ficha describe un envase de 30 mL y 30 porciones. Revisa el tamaño de tu frasco."
     ],
     [
       "¿Es seguro manejar después?",
@@ -169,7 +169,9 @@
     "Induce sueño profundo garantizado",
     "50 mg de melatonina por gotero",
     "Beneficios clínicos comprobados de Mimetix sobre sueño",
-    "60 porciones atribuidas al frasco de 30mL"
+    "30 porciones atribuidas al frasco del flyer de 60 mL"
   ],
-  "publicationNote": "Para Colombia no se ha aportado etiqueta local. Presentar CO como 'ficha colombiana no confirmada'; US sí con base en etiqueta inglesa descrita. La postal CR no valida CO."
+  "publicationNote": "CO sin ficha local validada: mostrar aviso y permitir consulta US. La presentación del flyer US y la infografía es 60 mL / 60 porciones. La ficha también describe una variante 30 mL / 30 porciones: no cruzar imágenes ni cantidades.",
+  "imageDriveId": "1vJUv2UB_wjYkmc84sKfZlnefz1OkYZc5",
+  "imageSelection": "La infografía UltraDream del Drive corresponde a frasco 2 fl oz / 60 mL. Utilizarla únicamente para la variante 60 mL; recortar el lado izquierdo para packshot sin texto."
 }
