@@ -1,0 +1,175 @@
+{
+  "slug": "ultra-dream",
+  "name": "UltraDream",
+  "edition": "US",
+  "editionStatus": "US_LABEL_DETAILS_IN_FICHA_FLYER_HAS_DIFFERENT_BOTTLE_SIZE",
+  "image": null,
+  "sources": [
+    {
+      "id": "1qtWvTk94dI_37qVozXxSLueYKlaeEyF-",
+      "name": "2Ficha_Basica_Producto_UltraDreamR1.docx"
+    },
+    {
+      "id": "1JdIaY7987vfNNSKdKnqQwolnmNUIYo-N",
+      "name": "1UltraDream_Flayer_20250828_ES.pdf"
+    },
+    {
+      "id": "14dZn0ty3YeS_XXo97kEboEaiXuEcqbzb",
+      "name": "DREAM_Postcard_CR_250901.pdf"
+    },
+    {
+      "id": "1vJUv2UB_wjYkmc84sKfZlnefz1OkYZc5",
+      "name": "Products_Mimetix_UltraDream_Infographics_UltraDream-Infographic.jpg"
+    }
+  ],
+  "hero": {
+    "eyebrow": "UltraDream · Rutina nocturna",
+    "headline": "GABA, melatonina y manzanilla en un suplemento líquido para la noche.",
+    "description": "UltraDream combina una mezcla para el sueño con Mimetix, que incluye extractos vegetales. La ficha de una presentación describe un frasco gotero de 30 mL.",
+    "facts": [
+      [
+        "1 mL",
+        "porción declarada"
+      ],
+      [
+        "50 mg",
+        "mezcla de soporte de sueño"
+      ],
+      [
+        "100 mg",
+        "mezcla Mimetix"
+      ]
+    ]
+  },
+  "explanations": {
+    "one": "UltraDream es un suplemento líquido de Zilis que combina GABA, melatonina, manzanilla y una mezcla vegetal llamada Mimetix.",
+    "quick": "UltraDream reúne una mezcla de 50 mg que incluye GABA, melatonina y manzanilla, y otra de 100 mg llamada Mimetix, con extractos vegetales de té verde, lúpulo, cúrcuma, jengibre y equinácea. Zilis lo presenta como un suplemento para una rutina nocturna; contiene melatonina y requiere precauciones de seguridad específicas.",
+    "full": "La melatonina es una hormona que participa en la regulación normal del ciclo sueño-vigilia. GABA es el nombre de un neurotransmisor del organismo y la manzanilla es una planta con larga historia de uso tradicional. UltraDream incorpora estos ingredientes en una mezcla de 50 mg por porción de 1 mL; la etiqueta no desglosa la cantidad individual de melatonina ni de GABA. También contiene 100 mg de Mimetix, combinación de extractos vegetales utilizada por Zilis. El fabricante presenta UltraCell como tecnología de formulación soluble en agua. Una ficha basada en un frasco fotografiado describe 30 mL con 30 porciones, mientras un flyer aporta 60 porciones: son referencias de presentaciones diferentes y no deben fusionarse."
+  },
+  "ingredients": [
+    [
+      "GABA",
+      "Ácido gamma-aminobutírico, un neurotransmisor presente naturalmente en el organismo.",
+      "Integra la mezcla de soporte para el sueño; no se informa cantidad individual por gotero."
+    ],
+    [
+      "Melatonina",
+      "Hormona que participa en el ritmo sueño-vigilia.",
+      "Forma parte de la mezcla de 50 mg; no confundir ese total con miligramos de melatonina."
+    ],
+    [
+      "Manzanilla",
+      "Extracto de una planta tradicionalmente asociada con infusiones nocturnas.",
+      "Ingrediente de la mezcla de soporte de sueño."
+    ],
+    [
+      "Mimetix",
+      "Mezcla de té verde, lúpulo, cúrcuma, jengibre y equinácea.",
+      "Extractos botánicos usados por la marca en su línea sin cáñamo."
+    ],
+    [
+      "Stevia",
+      "Extracto vegetal empleado como edulcorante.",
+      "Aparece entre otros ingredientes de la presentación descrita en la ficha."
+    ]
+  ],
+  "features": [
+    [
+      "Dos mezclas declaradas",
+      "50 mg de mezcla para sueño y 100 mg de Mimetix por porción."
+    ],
+    [
+      "Presentación en gotero",
+      "Una porción equivale a 1 mL."
+    ],
+    [
+      "Sin cáñamo en los ingredientes declarados",
+      "La línea Mimetix se describe como hemp-free en el material consultado."
+    ]
+  ],
+  "usage": {
+    "steps": [
+      "Agita el frasco antes de usar.",
+      "La porción de la ficha es 1 gotero (1 mL).",
+      "La documentación indica uso antes de acostarse; sigue la etiqueta de tu presentación exacta."
+    ],
+    "note": "La etiqueta citada indica no superar tres goteros al día, pero esto no debe interpretarse como invitación a aumentar la dosis. Diferenciar frasco de 30 mL frente a flyer de 60 porciones."
+  },
+  "precautions": [
+    "Contiene melatonina. No conduzcas ni operes maquinaria después de tomarla.",
+    "Consulta a un profesional de salud antes de usarla en menores, embarazo o lactancia, si tomas medicamentos, tienes condiciones médicas o dificultades de sueño persistentes.",
+    "No excedas las indicaciones de la etiqueta vigente.",
+    "Mantener fuera del alcance de niños. No presentarlo como tratamiento de insomnio u otras enfermedades."
+  ],
+  "faqs": [
+    [
+      "¿Tiene CBD o cáñamo?",
+      "En la formulación de UltraDream descrita por la ficha y el flyer no se lista cáñamo ni CBD; la marca la presenta como parte de su línea Mimetix sin cáñamo."
+    ],
+    [
+      "¿Qué contiene la mezcla para el sueño?",
+      "GABA, melatonina y extracto de manzanilla; el total indicado es 50 mg, sin cantidades individuales declaradas."
+    ],
+    [
+      "¿Qué contiene Mimetix?",
+      "Extractos de té verde, lúpulo, cúrcuma, jengibre y equinácea."
+    ],
+    [
+      "¿Cómo se usa?",
+      "La ficha indica agitar, usar 1 gotero (1 mL) antes de acostarse y seguir las precauciones de la etiqueta."
+    ],
+    [
+      "¿Cuántas porciones trae?",
+      "La ficha de un frasco de 30 mL informa 30 porciones. Otro flyer menciona 60, por lo que debes revisar qué envase tienes."
+    ],
+    [
+      "¿Es seguro manejar después?",
+      "La etiqueta advierte no conducir ni operar maquinaria al tomar melatonina."
+    ]
+  ],
+  "eli": {
+    "intro": "¿Qué quieres saber de UltraDream, {firstName}?",
+    "prompts": [
+      "¿Tiene melatonina?",
+      "¿Qué es Mimetix?",
+      "¿Cómo se toma?",
+      "¿Puedo manejar después?"
+    ]
+  },
+  "ambassador": {
+    "intro": "{firstName}, presenta UltraDream con información precisa, sobre todo al hablar de melatonina y precauciones.",
+    "one": "UltraDream es un suplemento en gotas de Zilis que combina GABA, melatonina, manzanilla y Mimetix en una propuesta de rutina nocturna.",
+    "listen": [
+      "¿Quieres saber primero qué contiene o cómo se usa?",
+      "¿Te interesa entender por qué lleva melatonina?",
+      "¿Quieres revisar las precauciones de esta presentación?"
+    ],
+    "avoid": [
+      "No prometas curar insomnio.",
+      "No digas que la mezcla de 50 mg equivale a 50 mg de melatonina.",
+      "No recomiendes aumentar dosis.",
+      "No ignores las advertencias sobre conducir, medicamentos o embarazo.",
+      "No mezcles tamaños de frascos de diferentes flyers."
+    ],
+    "roleplay": [
+      {
+        "question": "¿Cuántos miligramos de melatonina tiene?",
+        "example": "La etiqueta indica 50 mg para una mezcla de GABA, melatonina y manzanilla; no separa la cantidad de melatonina. No sería correcto decir que hay 50 mg de melatonina.",
+        "feedback": "Distinguir cantidad de la mezcla de cantidad de un ingrediente."
+      },
+      {
+        "question": "¿Puedo tomar UltraDream y luego conducir?",
+        "example": "La etiqueta indica que no se debe conducir ni operar maquinaria después de tomar melatonina.",
+        "feedback": "Prioriza la precaución por encima de un mensaje comercial."
+      }
+    ]
+  },
+  "excluded": [
+    "Cura insomnio",
+    "Induce sueño profundo garantizado",
+    "50 mg de melatonina por gotero",
+    "Beneficios clínicos comprobados de Mimetix sobre sueño",
+    "60 porciones atribuidas al frasco de 30mL"
+  ],
+  "publicationNote": "Para Colombia no se ha aportado etiqueta local. Presentar CO como 'ficha colombiana no confirmada'; US sí con base en etiqueta inglesa descrita. La postal CR no valida CO."
+}
