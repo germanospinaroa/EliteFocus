@@ -1,0 +1,195 @@
+{
+  "slug": "b-fit",
+  "name": "B-FIT",
+  "edition": "CO",
+  "editionStatus": "BRIEF_AND_MARKETING_MATERIAL_NO_PRIMARY_LOCAL_LABEL",
+  "alsoMentionedMarkets": [
+    "US",
+    "CR",
+    "MX"
+  ],
+  "image": "/catalog/b-fit-product.png",
+  "sources": [
+    {
+      "id": "1eIYu2PQ4zjPm3BNHYjCIwW7Xw-heMaTv",
+      "name": "Ficha Basica Producto bfit.docx"
+    },
+    {
+      "id": "1VjsGLgZtZY-_fI7MR5dFSB28oUkqOn9z",
+      "name": "B-FIT_Product_Flyer_ES.pdf"
+    },
+    {
+      "id": "1IA2n0hxOX1OEnme_zjITD9xjSAGQqoKY",
+      "name": "The_Science_Behind_B-FIT_ES (2).pdf"
+    },
+    {
+      "id": "1hkfkJqv0YUVcrdP7QBqY2BYWX-1zIXpU",
+      "name": "The_B-FIT_Plan_ES.pdf"
+    },
+    {
+      "id": "1Gqdd-Tpa_ml8VePWYRW9Lzh86xxrbPfU",
+      "name": "The_B-FIT_Diet_ES.pdf"
+    }
+  ],
+  "hero": {
+    "eyebrow": "B-FIT · Bienestar y hábitos",
+    "headline": "Una fórmula con ingredientes relacionados con la fibra y el metabolismo.",
+    "description": "B-FIT reúne beta-cariofileno, berberina, fenogreco, inulina, oleiletanolamida y psyllium en sobres para preparar con agua.",
+    "facts": [
+      [
+        "30 sobres",
+        "presentación indicada en la ficha"
+      ],
+      [
+        "En polvo",
+        "para mezclar con agua"
+      ]
+    ]
+  },
+  "explanations": {
+    "one": "B-FIT es un producto en polvo de Zilis que reúne ingredientes vegetales, fibras y otros compuestos estudiados en nutrición y metabolismo.",
+    "quick": "B-FIT combina beta-cariofileno, berberina, fenogreco, inulina, oleiletanolamida y cáscara de psyllium. Estos ingredientes tienen características distintas: unos aportan fibra, mientras otros se investigan por su relación con el metabolismo y el apetito. La marca lo presenta como complemento de hábitos de alimentación y actividad física.",
+    "full": "B-FIT se presenta en sobres individuales para preparar con agua. La documentación de Zilis destaca seis ingredientes: beta-cariofileno (BCP), berberina, fenogreco, inulina, oleiletanolamida (OEA) y cáscara de psyllium. La inulina se describe como fibra prebiótica; el psyllium es una fibra soluble que absorbe agua; el fenogreco es una planta cuyas semillas también contienen fibra. La OEA es un compuesto lipídico relacionado con señales de saciedad; la berberina y el BCP son ingredientes estudiados por investigadores en otros contextos. Estas características no prueban que B-FIT produzca pérdida de peso, controle la glucosa o modifique el colesterol de una persona. La guía B-FIT de la marca también incluye propuestas alimentarias inspiradas en la dieta mediterránea y hábitos de actividad física; son recursos distintos de las instrucciones del suplemento."
+  },
+  "ingredients": [
+    [
+      "Beta-cariofileno (BCP)",
+      "Compuesto natural presente, entre otras plantas, en la pimienta negra.",
+      "Uno de los seis ingredientes destacados por el fabricante; no equivale a demostrar efectos antiinflamatorios del producto."
+    ],
+    [
+      "Berberina",
+      "Compuesto de origen vegetal estudiado en investigaciones sobre metabolismo.",
+      "Ingrediente de la fórmula; no autoriza a prometer control de glucosa, colesterol ni pérdida de peso."
+    ],
+    [
+      "Fenogreco",
+      "Planta cuyas semillas contienen fibra y otros compuestos.",
+      "Aparece en la mezcla; no convertir estudios de un ingrediente en resultados garantizados."
+    ],
+    [
+      "Inulina",
+      "Tipo de fibra soluble con uso como ingrediente prebiótico.",
+      "Componente de la fórmula relacionado con el aporte de fibras."
+    ],
+    [
+      "Oleiletanolamida (OEA)",
+      "Compuesto lipídico que también produce el organismo.",
+      "Incluido como ingrediente; las funciones estudiadas de OEA no son prueba de eficacia de B-FIT."
+    ],
+    [
+      "Cáscara de psyllium",
+      "Fibra soluble vegetal que absorbe agua.",
+      "Componente relevante de fibra; las condiciones de hidratación e indicaciones se deben confirmar en la etiqueta."
+    ],
+    [
+      "Fruto del monje",
+      "Fruta usada como fuente de edulcorante.",
+      "Aparece en la ficha de recolección, pero su presencia exacta en la formulación de cada mercado requiere confirmación."
+    ]
+  ],
+  "features": [
+    [
+      "Seis ingredientes destacados",
+      "BCP, berberina, fenogreco, inulina, OEA y psyllium."
+    ],
+    [
+      "Sobres individuales",
+      "La ficha disponible describe una caja de 30 sobres."
+    ],
+    [
+      "Guía de hábitos complementaria",
+      "Zilis dispone de materiales específicos sobre alimentación y estilo de vida B-FIT."
+    ]
+  ],
+  "usage": {
+    "steps": [
+      "Revisa las indicaciones impresas en la caja correspondiente a tu país.",
+      "La ficha aportada describe la mezcla de un sobre con agua.",
+      "El Plan B-FIT de Zilis propone tomar un sobre con agua 30 minutos antes del almuerzo; verifica que esa pauta corresponda a tu presentación y situación."
+    ],
+    "note": "La cantidad de agua, composición por sobre y autorización específica para Colombia no están acreditadas con una etiqueta local completa en los documentos actuales."
+  },
+  "precautions": [
+    "No reemplaza tratamientos médicos ni permite prometer pérdida de peso, control de glucosa o colesterol.",
+    "Si estás embarazada, en lactancia, tomas medicamentos o tienes una condición médica, consulta al profesional de salud antes de utilizarlo.",
+    "Revisa la etiqueta de tu mercado para conocer dosis, ingredientes y advertencias exactas.",
+    "El plan alimentario de la marca es material complementario, no una recomendación clínica individual."
+  ],
+  "faqs": [
+    [
+      "¿Qué contiene B-FIT?",
+      "La documentación destaca BCP, berberina, fenogreco, inulina, OEA y psyllium. La lista completa y sus cantidades deben consultarse en el envase de tu mercado."
+    ],
+    [
+      "¿Cómo se prepara?",
+      "Se presenta en polvo para mezclar con agua. Sigue la cantidad de agua y la porción indicadas en la etiqueta del producto que tienes."
+    ],
+    [
+      "¿Cuántos sobres trae?",
+      "La ficha de recolección describe una caja de 30 sobres."
+    ],
+    [
+      "¿B-FIT garantiza que voy a adelgazar?",
+      "No. Los resultados personales no se pueden garantizar y el producto no sustituye hábitos ni atención profesional."
+    ],
+    [
+      "¿Qué es la inulina?",
+      "Es una fibra soluble utilizada como ingrediente prebiótico."
+    ],
+    [
+      "¿Qué es el psyllium?",
+      "Es una fibra soluble vegetal que absorbe agua."
+    ],
+    [
+      "¿La dieta B-FIT es obligatoria?",
+      "Es un material de acompañamiento de la marca; no debe interpretarse como una prescripción personalizada."
+    ]
+  ],
+  "eli": {
+    "intro": "¿Qué quieres saber de B-FIT, {firstName}?",
+    "prompts": [
+      "¿Qué ingredientes destaca B-FIT?",
+      "¿Qué es el psyllium?",
+      "¿Cómo se prepara?",
+      "¿B-FIT garantiza bajar de peso?"
+    ]
+  },
+  "ambassador": {
+    "intro": "{firstName}, comparte B-FIT sin prometer resultados. Empieza preguntando qué le gustaría conocer a la persona.",
+    "one": "B-FIT es una fórmula en polvo con ingredientes como inulina, psyllium, berberina y fenogreco, que Zilis integra en su propuesta de bienestar y hábitos.",
+    "listen": [
+      "¿Te gustaría conocer primero los ingredientes o cómo se prepara?",
+      "¿Qué valoras más al elegir un producto en polvo?",
+      "¿Quieres que te muestre la información que tenemos de esta presentación?"
+    ],
+    "avoid": [
+      "No prometas bajar kilos, quemar grasa o eliminar microplásticos.",
+      "No afirmes que regula hormonas, glucosa, colesterol o enfermedades.",
+      "No uses testimonios de pérdida de peso rápida como promesa.",
+      "No inventes la cantidad de agua, dosis o registro sanitario."
+    ],
+    "roleplay": [
+      {
+        "question": "¿Cuánto peso voy a bajar con B-FIT?",
+        "example": "No puedo prometer una cantidad de peso. B-FIT tiene ingredientes que Zilis presenta dentro de una propuesta de bienestar. Si te interesa, puedo explicarte qué contiene y qué dicen sus instrucciones.",
+        "feedback": "Una respuesta responsable evita cifras y resultados garantizados."
+      },
+      {
+        "question": "¿Qué contiene B-FIT?",
+        "example": "Los seis ingredientes destacados son BCP, berberina, fenogreco, inulina, OEA y psyllium. Para la composición y cantidades exactas debemos revisar la etiqueta de la versión que tienes.",
+        "feedback": "Identifica ingredientes sin convertirlos en tratamientos."
+      }
+    ]
+  },
+  "excluded": [
+    "Pérdida de 7 libras en 7 días",
+    "Elimina microplásticos",
+    "Regula hormonas",
+    "Quema grasa garantizada",
+    "Trata diabetes o controla glucosa",
+    "Previene enfermedades",
+    "Nanotecnología clínicamente probada para B-FIT sin estudio de producto"
+  ],
+  "publicationNote": "Publicar edición Colombia como ficha informativa con fuentes Zilis y aviso de etiqueta local pendiente. No presentarla como ficha regulatoria verificada. En US no duplicar automáticamente contenido CO sin etiqueta US."
+}
