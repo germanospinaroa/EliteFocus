@@ -138,7 +138,13 @@
       "¿Qué significa homeostasis?",
       "¿Qué ingredientes incluye?",
       "¿Cómo se usa?"
-    ]
+    ],
+    "answers": {
+      "¿Qué es Mimetix?": "Es una mezcla propia de Zilis formada por extractos de té verde, lúpulo, cúrcuma, jengibre y equinácea. En Ultra ICE se declaran 100 mg totales por porción.",
+      "¿Qué significa homeostasis?": "Es la capacidad del organismo de mantener condiciones internas relativamente estables.",
+      "¿Qué ingredientes incluye?": "La mezcla homeostática incluye cúrcuma, resveratrol, shiitake y açaí. También contiene Mimetix, con extractos vegetales adicionales.",
+      "¿Cómo se usa?": "La ficha consultada declara una porción de 2 mL, equivalente a dos goteros, y recomienda agitar antes de usar. La frecuencia exacta y las demás precauciones deben revisarse en la etiqueta de la presentación."
+    }
   },
   "ambassador": {
     "intro": "{firstName}, al presentar Ultra ICE explica sus ingredientes y reconoce el límite de lo que sabemos.",
