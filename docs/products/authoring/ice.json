@@ -1,0 +1,178 @@
+{
+  "slug": "ice",
+  "name": "Ultra ICE",
+  "edition": "US",
+  "editionStatus": "US_SUPPLEMENT_FLYER_VERIFIED_CO_UNAVAILABLE",
+  "image": "/catalog/ice-product.png",
+  "sources": [
+    {
+      "id": "1egiCNk6Ou7bW_yWFKpgznvAn_5md_sF2",
+      "name": "Ficha_Basica_Producto_UltraICE.docx"
+    },
+    {
+      "id": "16erjQUg3Avt4mqne2WfxBtc0auGY9KQ2",
+      "name": "UltraICE_ProductFlyer_20250829_ES (1).pdf"
+    },
+    {
+      "id": "1FyFUiwQHQDhlZeYrajwi2ocHXiVVqfUu",
+      "name": "UltraICE_ProductPresentation_20250829_ES (1).pdf"
+    },
+    {
+      "id": "1xZlogpR2xzsy_6djg9kVCgV8VKn5JC1Z",
+      "name": "UltraICE_Postcard_ES.pdf"
+    },
+    {
+      "id": "1ON5gn_NAqVgdAdPwYE_qsaueDqKmwocT",
+      "name": "UltraIce2.png"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Ultra ICE · Soporte homeostático",
+    "headline": "Una mezcla botánica en gotas, con Mimetix y tecnología UltraCell.",
+    "description": "Ultra ICE incluye una mezcla de cúrcuma, resveratrol, shiitake y açaí, además de otra mezcla vegetal llamada Mimetix.",
+    "facts": [
+      [
+        "2 mL",
+        "porción declarada"
+      ],
+      [
+        "30 porciones",
+        "por frasco, según flyer"
+      ],
+      [
+        "100 mg + 100 mg",
+        "mezcla homeostática y Mimetix"
+      ]
+    ]
+  },
+  "explanations": {
+    "one": "Ultra ICE es un suplemento líquido de Zilis que reúne extractos botánicos y la mezcla Mimetix en una presentación de gotas.",
+    "quick": "Cada porción de Ultra ICE contiene 100 mg de una mezcla con cúrcuma, resveratrol, shiitake y açaí, más 100 mg de Mimetix, que incluye extractos de té verde, lúpulo, cúrcuma, jengibre y equinácea. La marca lo presenta para apoyo homeostático y utiliza su tecnología UltraCell para preparar los ingredientes en un formato soluble en agua.",
+    "full": "Homeostasis es el conjunto de procesos con los que el organismo mantiene su equilibrio interno. Ultra ICE es presentado por Zilis como complemento de bienestar que reúne dos mezclas de 100 mg cada una: una de soporte homeostático con curcumina, resveratrol, shiitake y açaí; y Mimetix, con extractos de té verde, lúpulo, cúrcuma, jengibre y equinácea. El fabricante relaciona Mimetix con su enfoque del sistema endocannabinoide y presenta la tecnología UltraCell como una forma de hacer solubles en agua componentes de su formulación. Esas explicaciones describen el posicionamiento de la marca y no prueban que Ultra ICE trate dolor, inflamación o enfermedad alguna."
+  },
+  "ingredients": [
+    [
+      "Cúrcuma y curcumina",
+      "La cúrcuma es una raíz vegetal y la curcumina es uno de sus componentes conocidos.",
+      "Ingrediente destacado de la mezcla homeostática y también presente entre los extractos de Mimetix."
+    ],
+    [
+      "Resveratrol",
+      "Polifenol, en esta fórmula procedente de Polygonum cuspidatum según la ficha.",
+      "Ingrediente de la mezcla homeostática."
+    ],
+    [
+      "Shiitake",
+      "Hongo comestible Lentinula edodes del que se obtiene un extracto.",
+      "Forma parte de la mezcla homeostática."
+    ],
+    [
+      "Açaí",
+      "Fruto de la palma Euterpe oleracea.",
+      "Su extracto integra la mezcla homeostática."
+    ],
+    [
+      "Mimetix",
+      "Mezcla de extractos de té verde, lúpulo, cúrcuma, jengibre y equinácea.",
+      "Zilis la utiliza en varias formulaciones; no es un sinónimo de CBD."
+    ]
+  ],
+  "features": [
+    [
+      "Dos mezclas botánicas",
+      "100 mg de mezcla homeostática y 100 mg de Mimetix por porción."
+    ],
+    [
+      "Porción de 2 mL",
+      "El flyer identifica dos goteros por porción."
+    ],
+    [
+      "Tecnología UltraCell",
+      "El fabricante describe una formulación diseñada para ser soluble en agua."
+    ]
+  ],
+  "usage": {
+    "steps": [
+      "Agita bien el frasco antes de usar.",
+      "La información consultada declara 2 mL (dos goteros) por porción.",
+      "La ficha describe administración bajo la lengua; revisa las instrucciones y frecuencia del envase vigente antes de usar."
+    ],
+    "note": "Las fuentes contienen referencias a uso diario y a 'hasta cada 4 horas', sin una pauta máxima verificada y consistente. No mostrar frecuencia repetida ni recomendar aumentar dosis."
+  },
+  "precautions": [
+    "Consulta con un profesional de salud antes de utilizarlo, especialmente si tomas medicamentos o tienes una condición médica.",
+    "No presentarlo para tratar dolor, inflamación ni ninguna enfermedad.",
+    "Revisa instrucciones, advertencias, edad de uso y almacenamiento de la presentación correspondiente.",
+    "No recomendar una frecuencia de repetición hasta confirmar etiqueta vigente."
+  ],
+  "faqs": [
+    [
+      "¿Qué es Ultra ICE?",
+      "Es un suplemento líquido de Zilis con dos mezclas botánicas, una de soporte homeostático y otra llamada Mimetix."
+    ],
+    [
+      "¿Qué significa homeostasis?",
+      "Es el proceso por el cual el cuerpo mantiene condiciones internas relativamente estables."
+    ],
+    [
+      "¿Qué contiene Mimetix?",
+      "Extractos de té verde, lúpulo, cúrcuma, jengibre y equinácea, según el flyer."
+    ],
+    [
+      "¿Tiene CBD?",
+      "Los ingredientes listados del flyer no incluyen CBD ni cáñamo. La marca describe Mimetix como una alternativa vegetal sin cáñamo; no debe afirmarse una certificación de THC sin ensayo del lote."
+    ],
+    [
+      "¿Cuánto trae cada mezcla?",
+      "El flyer indica 100 mg de mezcla homeostática y 100 mg de Mimetix por porción de 2 mL."
+    ],
+    [
+      "¿Se recomienda para el dolor?",
+      "No debe presentarse como tratamiento o alivio de dolor o enfermedades."
+    ]
+  ],
+  "eli": {
+    "intro": "¿Qué quieres conocer de Ultra ICE, {firstName}?",
+    "prompts": [
+      "¿Qué es Mimetix?",
+      "¿Qué significa homeostasis?",
+      "¿Qué ingredientes incluye?",
+      "¿Cómo se usa?"
+    ]
+  },
+  "ambassador": {
+    "intro": "{firstName}, al presentar Ultra ICE explica sus ingredientes y reconoce el límite de lo que sabemos.",
+    "one": "Ultra ICE es un suplemento de Zilis en gotas con mezclas de cúrcuma, resveratrol, shiitake, açaí y Mimetix.",
+    "listen": [
+      "¿Quieres empezar por los ingredientes o por la presentación?",
+      "¿Te interesa saber qué significa Mimetix?",
+      "¿Quieres que te muestre el panel de la presentación estadounidense?"
+    ],
+    "avoid": [
+      "No prometas alivio de dolor, fibromialgia, artritis ni inflamación.",
+      "No inventes dosis repetidas cada cuatro horas.",
+      "No presentes el folleto estadounidense como registro INVIMA.",
+      "No afirmes ausencia absoluta de THC sin prueba de lote."
+    ],
+    "roleplay": [
+      {
+        "question": "¿Ultra ICE sirve para una enfermedad inflamatoria?",
+        "example": "No puedo recomendarlo como tratamiento para una enfermedad. Puedo explicarte qué contiene y sugerirte revisar con tu profesional de salud si es adecuado para ti.",
+        "feedback": "No convertir ingredientes antioxidantes en promesas clínicas."
+      },
+      {
+        "question": "¿Qué es Mimetix?",
+        "example": "Es una mezcla de extractos vegetales como té verde, lúpulo, cúrcuma, jengibre y equinácea que Zilis incorpora a sus formulaciones.",
+        "feedback": "Identificar la mezcla sin atribuir efectos no demostrados."
+      }
+    ]
+  },
+  "excluded": [
+    "Trata inflamación y dolor",
+    "Cura fibromialgia",
+    "Dosis cada cuatro horas como recomendación segura",
+    "Registro colombiano",
+    "Comprobación de eficacia clínica específica de Ultra ICE"
+  ],
+  "publicationNote": "Colombia preseleccionada: mostrar tarjeta 'No tenemos aún una ficha de la presentación colombiana' y permitir cambiar a US. Nunca mostrar la ficha US bajo etiqueta Colombia."
+}
