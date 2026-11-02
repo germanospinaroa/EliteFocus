@@ -158,7 +158,13 @@
       "¿Tiene THC?",
       "¿Puede aparecer en un test de drogas?",
       "¿Qué es CBG?"
-    ]
+    ],
+    "answers": {
+      "¿Cuánto CBD contiene?": "La presentación estadounidense declara 4,16 mg de CBD por gotero de 1 mL. También contiene 2 mg de CBG y 1 mg de CBC.",
+      "¿Tiene THC?": "Sí puede contener THC. La información revisada indica un contenido total de delta-9-THC no superior al 0,3 % por peso; eso no significa que sea imposible detectarlo.",
+      "¿Puede aparecer en un test de drogas?": "Sí. La etiqueta advierte expresamente que el producto puede producir un resultado positivo en una prueba de drogas.",
+      "¿Qué es CBG?": "CBG significa cannabigerol, uno de los cannabinoides que se encuentran en el cáñamo. En la presentación estadounidense de UltraVibe se declaran 2 mg por gotero."
+    }
   },
   "ambassador": {
     "intro": "{firstName}, presentar UltraVibe requiere explicar sus cantidades y las advertencias de THC con especial claridad.",
