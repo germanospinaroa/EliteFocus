@@ -134,7 +134,13 @@
       "¿Qué es Mimetix?",
       "¿Cómo se toma?",
       "¿Puedo manejar después?"
-    ]
+    ],
+    "answers": {
+      "¿Tiene melatonina?": "Sí. La etiqueta documenta una mezcla de 50 mg con GABA, melatonina y manzanilla. No especifica cuántos miligramos de esos 50 corresponden únicamente a melatonina.",
+      "¿Qué es Mimetix?": "Es una mezcla de extractos vegetales como té verde, lúpulo, cúrcuma, jengibre y equinácea. Se declaran 100 mg de mezcla por porción.",
+      "¿Cómo se toma?": "La ficha indica agitar el frasco y usar una porción de un gotero, equivalente a 1 mL, antes de acostarse. Revisa siempre la presentación exacta.",
+      "¿Puedo manejar después?": "No. La información de la etiqueta advierte que no se debe conducir ni operar maquinaria después de tomar melatonina."
+    }
   },
   "ambassador": {
     "intro": "{firstName}, presenta UltraDream con información precisa, sobre todo al hablar de melatonina y precauciones.",
