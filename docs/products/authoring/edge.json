@@ -1,0 +1,213 @@
+{
+  "slug": "edge",
+  "name": "UltraEdge Caribbean Crush",
+  "edition": "US",
+  "editionStatus": "US_PRODUCT_FICHA_AND_FLYER_AVAILABLE",
+  "image": "/catalog/edge-product.png",
+  "sources": [
+    {
+      "id": "1VEjsvCGK-Xy8wuWH86XTrreY1xRg4wz-",
+      "name": "Ficha_Ultra_Edge_Caribbean_Crush_USAR0.docx"
+    },
+    {
+      "id": "1TUAX0GIe8DmKolVEXA0pMuo4lgd2JsJr",
+      "name": "Flyer_UltraEdge_CaribbeanCrush_ES.pdf"
+    },
+    {
+      "id": "1BFoh6TXZJHO_feAYaPGJUpADKiDEto3a",
+      "name": "EdgeCrush_Beneficios_ES.png"
+    }
+  ],
+  "hero": {
+    "eyebrow": "UltraEdge · Caribbean Crush",
+    "headline": "Una bebida en polvo con cafeína, vitamina B12 y una mezcla de ingredientes para enfoque y energía.",
+    "description": "UltraEdge se presenta en sobres individuales de sabor tropical para preparar con agua.",
+    "facts": [
+      [
+        "30 sobres",
+        "por bolsa"
+      ],
+      [
+        "3 g",
+        "por sobre"
+      ],
+      [
+        "200 mcg",
+        "vitamina B12 por porción"
+      ]
+    ]
+  },
+  "explanations": {
+    "one": "UltraEdge Caribbean Crush es un suplemento en polvo de Zilis que combina una mezcla con cafeína, vitamina B12, extractos vegetales y electrolitos.",
+    "quick": "Cada sobre de UltraEdge contiene una mezcla cognitiva y de energía de 130 mg con cafeína natural, té verde y otros compuestos, además de 60 mg de Mimetix y 200 microgramos de vitamina B12. El formato es un stick de 3 g para mezclar con agua. El sabor se llama Caribbean Crush.",
+    "full": "La mezcla cognitiva y de energía de UltraEdge incluye cafeína natural, extracto de té verde, citicolina, açaí, bacopa, maca, rodiola, hesperidina y huperzina A. Los 130 mg corresponden al total de la mezcla, no a la cafeína. La segunda mezcla, Mimetix, pesa 60 mg en total e integra polisacáridos, lípidos y extractos de plantas como té verde, lúpulo, cúrcuma, jengibre y equinácea. La etiqueta descrita en la ficha indica vitamina B12 (200 mcg) y potasio (51 mg), pero presenta una inconsistencia en la unidad reportada para sodio; no debe mostrarse una cifra de sodio hasta resolverla. Se prepara con agua y contiene cafeína, lo que exige considerar otras fuentes de estimulantes."
+  },
+  "ingredients": [
+    [
+      "Cafeína natural y té verde",
+      "Ingredientes que pueden aportar cafeína; el té verde es también una fuente de compuestos vegetales.",
+      "Forman parte de la mezcla total de 130 mg; NO se conoce la cantidad individual de cafeína."
+    ],
+    [
+      "Citicolina",
+      "Compuesto utilizado en formulaciones de suplementos cognitivos.",
+      "Se incluye en la mezcla de 130 mg; no hay dosis individual declarada."
+    ],
+    [
+      "Bacopa",
+      "Planta utilizada tradicionalmente en preparados ayurvédicos.",
+      "Ingrediente botánico de la mezcla cognitiva."
+    ],
+    [
+      "Maca y rodiola",
+      "Plantas empleadas en productos de bienestar y suplementación.",
+      "Integran la mezcla sin cantidad individual publicada."
+    ],
+    [
+      "Huperzina A",
+      "Compuesto presente en preparados derivados de Huperzia serrata.",
+      "Componente de la mezcla, sin dosis individual declarada."
+    ],
+    [
+      "Mimetix",
+      "Mezcla de polisacáridos, lípidos y extractos de té verde, lúpulo, cúrcuma, jengibre y equinácea.",
+      "60 mg totales por porción, según ficha."
+    ],
+    [
+      "Vitamina B12",
+      "Vitamina del grupo B.",
+      "Se declara una cantidad de 200 mcg por porción."
+    ],
+    [
+      "Potasio",
+      "Mineral electrolito.",
+      "La ficha registra 51 mg por porción."
+    ]
+  ],
+  "features": [
+    [
+      "Mezcla de 130 mg",
+      "Incluye cafeína natural y otros ingredientes; no indica cafeína individual."
+    ],
+    [
+      "60 mg de Mimetix",
+      "Mezcla de componentes vegetales y otros compuestos."
+    ],
+    [
+      "Vitamina B12",
+      "200 mcg declarados por porción."
+    ],
+    [
+      "Potasio",
+      "51 mg declarados por porción."
+    ]
+  ],
+  "nutrition": [
+    [
+      "200 mcg",
+      "vitamina B12"
+    ],
+    [
+      "51 mg",
+      "potasio"
+    ],
+    [
+      "130 mg",
+      "mezcla cognitiva total"
+    ],
+    [
+      "60 mg",
+      "Mimetix total"
+    ]
+  ],
+  "usage": {
+    "steps": [
+      "Abre un stick de 3 g.",
+      "Mézclalo con aproximadamente 120 a 180 ml de agua.",
+      "La ficha indica una vez al día, o según indicación profesional. Revisa las instrucciones de tu envase."
+    ],
+    "note": "Contiene cafeína, cuya cantidad exacta no está declarada. No interpretar los 130 mg de la mezcla como 130 mg de cafeína."
+  },
+  "precautions": [
+    "Contiene cafeína; considera sensibilidad individual y consumo de otras bebidas estimulantes.",
+    "La etiqueta de la ficha indica que no está dirigido a menores de 18 años ni a mujeres embarazadas o lactantes.",
+    "Consultar al profesional de salud si existen condiciones médicas o medicamentos.",
+    "El dato de sodio presenta una inconsistencia de unidades y queda fuera de la interfaz hasta aclararlo.",
+    "No prometer tratamiento de condiciones cognitivas ni resultados medibles."
+  ],
+  "faqs": [
+    [
+      "¿Cuánta cafeína tiene?",
+      "La etiqueta consultada no informa la cifra individual. Los 130 mg corresponden al total de la mezcla, no solo a cafeína."
+    ],
+    [
+      "¿Qué es Mimetix?",
+      "Es una mezcla de componentes y extractos vegetales; en UltraEdge se declaran 60 mg por porción."
+    ],
+    [
+      "¿Contiene CBD o THC?",
+      "En la lista de ingredientes revisada no se mencionan CBD, THC ni cáñamo. Esa observación no equivale a un análisis de laboratorio del producto."
+    ],
+    [
+      "¿Cómo se prepara?",
+      "Mezcla un sobre de 3 g en aproximadamente 120 a 180 ml de agua."
+    ],
+    [
+      "¿Cuántos sobres contiene?",
+      "La bolsa descrita contiene 30 sobres individuales."
+    ],
+    [
+      "¿Cuánta vitamina B12 aporta?",
+      "La ficha documenta 200 microgramos por sobre."
+    ],
+    [
+      "¿Cuánto sodio contiene?",
+      "La unidad mostrada en la fuente no es consistente; no tenemos una cifra fiable para comunicar."
+    ]
+  ],
+  "eli": {
+    "intro": "¿Qué te gustaría saber de UltraEdge, {firstName}?",
+    "prompts": [
+      "¿Cuánta cafeína tiene?",
+      "¿Cómo se prepara?",
+      "¿Qué es Mimetix?",
+      "¿Cuánta B12 contiene?"
+    ]
+  },
+  "ambassador": {
+    "intro": "{firstName}, explicar UltraEdge correctamente significa distinguir la mezcla total de la cantidad de cafeína.",
+    "one": "UltraEdge es una bebida en polvo sabor Caribbean Crush con una mezcla que incluye cafeína, vitamina B12 y otros ingredientes, en sobres individuales.",
+    "listen": [
+      "¿Te interesa conocer su contenido de cafeína?",
+      "¿Quieres que te muestre cómo se prepara?",
+      "¿Prefieres revisar primero los ingredientes?"
+    ],
+    "avoid": [
+      "No afirmar que contiene 130 mg de cafeína.",
+      "No corregir por suposición la cifra de sodio.",
+      "No garantizar concentración, memoria o desempeño.",
+      "No afirmar ausencia absoluta de THC sin certificación de lote.",
+      "No presentar la ficha estadounidense como colombiana."
+    ],
+    "roleplay": [
+      {
+        "question": "¿UltraEdge tiene 130 mg de cafeína?",
+        "example": "No. Los 130 mg corresponden a una mezcla con varios ingredientes, incluida la cafeína. La cantidad de cafeína sola no está indicada.",
+        "feedback": "La diferencia entre mezcla y componente es indispensable."
+      },
+      {
+        "question": "¿Cuánto sodio contiene?",
+        "example": "El documento tiene una inconsistencia de unidades. Prefiero no darte una cifra hasta que Zilis la confirme.",
+        "feedback": "Reconoce el dato pendiente sin inventar un número."
+      }
+    ]
+  },
+  "excluded": [
+    "130 mg de cafeína",
+    "Sodio 118 mg o 118 mcg como dato confirmado",
+    "Mejora clínicamente memoria y cognición",
+    "Cura déficit de atención",
+    "Registro colombiano"
+  ],
+  "publicationNote": "CO preseleccionada, pero sin versión CO verificada. Ofrecer consultar US sin mezclar mercados."
+}
