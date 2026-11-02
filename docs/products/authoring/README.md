@@ -37,7 +37,7 @@ Para la vista de producto replicar el renderer aprobado de Amalaki con este orde
 4. "¿Qué es {producto}?": tres niveles de `explanations.one`, `quick`, `full`; progresivo y sin autorrepetición.
 5. "Lo más importante": las tarjetas exactas `features`; luego `nutrition` si corresponde. No construir cuadrícula con celdas fantasma.
 6. "¿Quieres conocerlo mejor?": `ingredients`, `precautions`, `faqs` dentro de disclosures cerrados por defecto.
-7. Eli: `eli.intro` y máximo cuatro botones `eli.prompts`, cada uno respondiendo desde el FAQ exacto o la ficha del mismo mercado; nunca inventar respuesta ni fingir IA conversacional libre.
+7. Eli: `eli.intro`, los cuatro botones exactos `eli.prompts` y sus RESPUESTAS LITERALES en `eli.answers` (las siete fichas ya incluyen el mapa exacto pregunta → respuesta). No redactar respuestas, no hacer correspondencia difusa contra FAQs ni fingir IA conversacional libre. Si una pregunta no figura en `eli.answers`, respuesta única exacta: **"Todavía no tengo información confirmada para responder eso sobre esta presentación."**
 8. Solo Embajador: `ambassador.intro`, cuatro acciones "Explícalo", "Escucha", "Evita", "Practica"; textos exactos `one`, `listen`, `avoid`, `roleplay`. El roleplay requiere escribir la propia respuesta y permite ver el ejemplo, NO proporciona calificación automática ni ofrece una única respuesta precargada como práctica.
 9. "¿Con quién te gustaría compartir {producto}?": CTA exacto "Elegir una persona", conservar interés del producto y conectar el módulo Personas/Follow-ups existente.
 10. Cierre por rol con acción real, SIN botones del tipo "Ya sé usarlo", "Completado", "Guardado", ni marcar aprendizaje por simple scroll.
