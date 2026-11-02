@@ -153,7 +153,13 @@
       "¿Qué es el psyllium?",
       "¿Cómo se prepara?",
       "¿B-FIT garantiza bajar de peso?"
-    ]
+    ],
+    "answers": {
+      "¿Qué ingredientes destaca B-FIT?": "B-FIT destaca beta-cariofileno (BCP), berberina, fenogreco, inulina, oleiletanolamida (OEA) y cáscara de psyllium. La lista y cantidades finales se revisan en el envase correspondiente al mercado.",
+      "¿Qué es el psyllium?": "Es una fibra soluble de origen vegetal que absorbe agua. Es uno de los ingredientes destacados en la fórmula B-FIT.",
+      "¿Cómo se prepara?": "La ficha describe B-FIT como un polvo para mezclar con agua. La cantidad exacta de agua y la medida de la porción deben revisarse en la etiqueta de la presentación que tienes.",
+      "¿B-FIT garantiza bajar de peso?": "No. No se puede garantizar pérdida de peso, un plazo ni un resultado individual. La marca lo presenta como complemento de hábitos saludables, no como sustituto de atención profesional."
+    }
   },
   "ambassador": {
     "intro": "{firstName}, comparte B-FIT sin prometer resultados. Empieza preguntando qué le gustaría conocer a la persona.",
