@@ -1,0 +1,170 @@
+{
+  "slug": "accell",
+  "name": "ACCELL",
+  "edition": "CO",
+  "editionStatus": "CO_COMMERCIAL_MATERIAL_ONLY_LOCAL_LABEL_PENDING",
+  "image": null,
+  "sources": [
+    {
+      "id": "1DfBud2SeRWDqUT_IPNKrNXn6cJIzaFsg",
+      "name": "Ficha tecnica ACCELL.docx"
+    },
+    {
+      "id": "1cTCTf9H9COpAFagfSE_Liq4fIHbEZJ3O",
+      "name": "Accell_Flyer_ES.pdf"
+    },
+    {
+      "id": "1Lucnv47r1cqiJySswAZ7PlWgwJtqPm0f",
+      "name": "Energía natural para tu día.png"
+    }
+  ],
+  "hero": {
+    "eyebrow": "ACCELL · Bebida con cafeína",
+    "headline": "Una bebida en polvo con té verde y otros ingredientes de la fórmula ACCELL.",
+    "description": "La presentación comercial se identifica como Berry Burst. Se mezcla con agua y el flyer reporta 135 mg de cafeína por porción.",
+    "facts": [
+      [
+        "135 mg",
+        "cafeína por porción, según flyer"
+      ],
+      [
+        "Berry Burst",
+        "sabor indicado comercialmente"
+      ],
+      [
+        "140 g",
+        "contenido de frasco, según ficha"
+      ]
+    ]
+  },
+  "explanations": {
+    "one": "ACCELL es un producto en polvo de Zilis para preparar una bebida con cafeína y otros ingredientes vegetales.",
+    "quick": "ACCELL combina ingredientes como té verde, Trikatu, vitaminas del grupo B, enzimas digestivas y minerales que incluyen cromo y selenio, según sus materiales comerciales. Se presenta con sabor Berry Burst y se prepara con agua fría o caliente. El flyer indica 135 mg de cafeína por porción, algo importante para personas sensibles a estimulantes.",
+    "full": "ACCELL se presenta como un polvo sabor Berry Burst para preparar una bebida. Zilis destaca ingredientes relacionados con té verde, especias de la mezcla tradicional Trikatu, vitaminas del grupo B, enzimas y minerales. El flyer informa 135 mg de cafeína por porción. La ficha describe un envase de 140 g y una porción comercial aproximada de 7 g, pero falta contrastar la etiqueta vigente de Colombia. También existen cifras de calorías discrepantes entre fuentes; por eso no mostramos una cifra nutricional definitiva. La cafeína es un estimulante que puede aumentar temporalmente el estado de alerta; no equivale a garantizar energía constante ni rendimiento."
+  },
+  "ingredients": [
+    [
+      "Té verde",
+      "Ingrediente vegetal que puede aportar cafeína.",
+      "El flyer lo destaca entre las fuentes de cafeína de ACCELL."
+    ],
+    [
+      "Trikatu",
+      "Mezcla tradicional de pimienta negra, pimienta larga y jengibre.",
+      "Aparece en el material comercial; cantidades individuales no confirmadas."
+    ],
+    [
+      "Vitaminas del grupo B",
+      "Conjunto de vitaminas que participan en funciones normales del organismo.",
+      "La marca las menciona, sin especificar tipos ni cantidades en los archivos aportados."
+    ],
+    [
+      "Enzimas digestivas",
+      "Proteínas que intervienen en la descomposición de algunos nutrientes.",
+      "Se mencionan en el flyer sin identificación y cantidades individuales."
+    ],
+    [
+      "Cromo y selenio",
+      "Minerales presentes en distintas funciones del organismo.",
+      "El flyer los nombra, pero no aporta cantidades verificadas de la etiqueta."
+    ]
+  ],
+  "features": [
+    [
+      "135 mg de cafeína",
+      "Cantidad por porción reportada por el flyer de Zilis."
+    ],
+    [
+      "Preparación flexible",
+      "El flyer indica que se puede mezclar con agua fría o caliente."
+    ],
+    [
+      "Sabor Berry Burst",
+      "Identificado en la ficha como frutos rojos/frambuesa."
+    ]
+  ],
+  "usage": {
+    "steps": [
+      "Comprueba la cantidad por porción indicada en el envase que tienes.",
+      "Mezcla el polvo con agua fría o caliente, según el flyer.",
+      "No supongas una frecuencia diaria: revisa las indicaciones de esa presentación."
+    ],
+    "note": "El volumen exacto de agua, la medida por porción y la frecuencia no están confirmados en la etiqueta local disponible."
+  },
+  "precautions": [
+    "Contiene cafeína; el flyer informa 135 mg por porción.",
+    "Si eres sensible a la cafeína, estás embarazada, en lactancia, tomas medicamentos o tienes alguna condición médica, consulta al profesional de salud antes de utilizarlo.",
+    "No presentarlo como tratamiento, sustituto de comidas ni producto apto para menores.",
+    "No combinar sin considerar otras fuentes de cafeína como café, té o bebidas energéticas."
+  ],
+  "faqs": [
+    [
+      "¿Qué es ACCELL?",
+      "Es una bebida en polvo de Zilis con cafeína y otros ingredientes vegetales, vitaminas y minerales mencionados en el material comercial."
+    ],
+    [
+      "¿Cuánta cafeína tiene?",
+      "El flyer de Zilis indica 135 mg de cafeína por porción."
+    ],
+    [
+      "¿Se puede preparar con agua fría?",
+      "Sí. El flyer indica que se puede mezclar con agua fría o caliente."
+    ],
+    [
+      "¿Cuántas calorías tiene?",
+      "Las fuentes aportadas muestran cifras distintas. No tenemos una cifra confirmada para la etiqueta local."
+    ],
+    [
+      "¿Qué contiene?",
+      "El material menciona té verde, Trikatu, vitaminas B, enzimas digestivas, cromo y selenio. Las cantidades exactas requieren la etiqueta."
+    ],
+    [
+      "¿Se recomienda para niños?",
+      "No debe promocionarse para menores; contiene cafeína. Consulta las advertencias oficiales de la presentación."
+    ]
+  ],
+  "eli": {
+    "intro": "¿Qué te gustaría saber de ACCELL, {firstName}?",
+    "prompts": [
+      "¿Cuánta cafeína tiene?",
+      "¿Qué es Trikatu?",
+      "¿Cómo se prepara?",
+      "¿Tiene vitaminas B?"
+    ]
+  },
+  "ambassador": {
+    "intro": "{firstName}, cuando compartas ACCELL habla primero de su preparación, ingredientes y contenido de cafeína.",
+    "one": "ACCELL es una bebida en polvo con ingredientes como té verde y Trikatu; su flyer reporta 135 mg de cafeína por porción.",
+    "listen": [
+      "¿Te gustan las bebidas con cafeína?",
+      "¿Prefieres prepararla con agua fría o caliente?",
+      "¿Quieres revisar sus ingredientes antes de decidir?"
+    ],
+    "avoid": [
+      "No prometas controlar el apetito ni mejorar el metabolismo como resultado individual.",
+      "No afirmar calorías definitivas cuando las fuentes no coinciden.",
+      "No recomendar a menores ni minimizar la cafeína.",
+      "No inventar frecuencia, preparación exacta ni ingredientes completos."
+    ],
+    "roleplay": [
+      {
+        "question": "¿Tiene mucha cafeína?",
+        "example": "El flyer indica 135 mg por porción. Es importante si eres sensible a la cafeína o si ya tomas café o bebidas energéticas.",
+        "feedback": "Menciona la cantidad reportada y evita minimizar los riesgos."
+      },
+      {
+        "question": "¿Cuántas calorías tiene?",
+        "example": "Encontramos cifras distintas en las fuentes disponibles, así que prefiero revisar la etiqueta vigente antes de darte un número.",
+        "feedback": "Es mejor reconocer una discrepancia que inventar una cifra."
+      }
+    ]
+  },
+  "excluded": [
+    "20 o 30 kcal como cifra confirmada",
+    "Reduce antojos de forma garantizada",
+    "Mejora rendimiento deportivo clínicamente",
+    "Porción de 7g como etiqueta confirmada",
+    "Seguro en embarazo, lactancia o menores"
+  ],
+  "publicationNote": "Datos CO basados en flyer comercial, sin certificación de etiqueta local. No habilitar versión US sin documentación propia."
+}
